@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerInformationResponse>
+  <Customer customerNumber="10001">
+    <Address type="BillTo">
+      <Addr1>251 W 30th St</Addr1>
+      <Addr2>SUITE 12E</Addr2>
+      <TitleCode>1</TitleCode>
+      <Company></Company>
+      <FirstName>Patrick</FirstName>
+      <LastName>Puck</LastName>
+      <Street1>251 W 30th St</Street1>
+      <Street2></Street2>
+      <City>New York</City>
+      <State>NY</State>
+      <ZIP>10001</ZIP>
+      <TLD>US</TLD>
+      <PhoneNumber></PhoneNumber>
+      <Email>pmp@ordermotion.com</Email>
+      <CustomerNumber>10001</CustomerNumber>
+      <HouseNumber></HouseNumber>
+      <SubCity></SubCity>
+      <Building></Building>
+    </Address>
+    <FlagData>
+      <Flag name="DoNotMail">True</Flag>
+      <Flag name="DoNotCall">False</Flag>
+      <Flag name="DoNotEmail">False</Flag>
+      <Flag name="Bankrupt">False</Flag>
+    </FlagData>
+    <CustomFields>
+      <Field fieldName="Employment Title" fieldID="131">
+        <Value>CEO</Value>
+      </Field>
+      <Field fieldName="PreferencedColors" fieldID="20016">
+        <Value>Red</Value>
+        <Value>Blue</Value>
+      </Field>
+    </CustomFields>
+  </Customer>
+  <Success>1</Success>
+</CustomerInformationResponse>

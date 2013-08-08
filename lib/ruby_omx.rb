@@ -18,6 +18,7 @@ require 'ruby_omx/orders'
 require 'ruby_omx/items'
 require 'ruby_omx/purchase_orders'
 require 'ruby_omx/memos'
+require 'ruby_omx/customers'
 Dir.glob(File.join(File.dirname(__FILE__), 'ruby_omx/response/*.rb')).each {|f| require f }
 Dir.glob(File.join(File.dirname(__FILE__), 'ruby_omx/request/*.rb')).each {|f| require f }
 
@@ -31,4 +32,5 @@ RubyOmx::Base.class_eval do
   include RubyOmx::Items
   include RubyOmx::PurchaseOrders
   include RubyOmx::Memos
+  include RubyOmx::Customers
 end

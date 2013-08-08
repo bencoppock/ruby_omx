@@ -83,8 +83,24 @@ module RubyOmx
     xml_name "Address"
     xml_accessor :address_type, :from => '@type'
     xml_accessor :title_code, :company, :firstname, :lastname, :address1, :address2, :county, :city, :state, :phone_number, :email, :country
+    xml_accessor :first_name, :last_name, :addr1, :addr2, :street1, :street2, :house_number, :sub_city, :building # for CustomerInformationResponse
     xml_accessor :zip, :from => 'ZIP'
     xml_accessor :tld, :from => 'TLD'
+  end
+
+  class CustomField < Node
+    xml_name 'Field'
+    xml_accessor :field_id, :from => '@fieldID'
+    xml_accessor :field_name, :from => '@fieldName' # for CustomerInformationResponse
+    xml_accessor :line_number, :from => '@lineNumber'
+    xml_accessor :value, :from => :content
+    xml_accessor :values, :from => :value, :as => [] # for CustomerInformationResponse
+  end
+      
+  class Flag < Node
+    xml_name 'Flag'
+    xml_accessor :name, :from => '@name'
+    xml_accessor :value, :from => :content      
   end
 
   class StandardResponse < Response

@@ -1,17 +1,4 @@
 module RubyOmx
-        
-  class CustomField < Node
-    xml_name 'Field'
-    xml_accessor :field_id, :from => '@fieldID'
-    xml_accessor :line_number, :from => '@lineNumber'
-    xml_accessor :value, :from => :content
-  end
-    
-  class Flag < Node
-    xml_name 'Flag'
-    xml_accessor :name, :from => '@name'
-    xml_accessor :value, :from => :content      
-  end
 
   class UDOARequest < Request
     def initialize(attrs={})
