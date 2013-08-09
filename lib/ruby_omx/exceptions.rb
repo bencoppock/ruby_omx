@@ -40,6 +40,14 @@ module RubyOmx
     end
   end
     
+  # Raised if the search tokens are invalid (e.g. on a CustomerLocatorRequest).
+  class MissingSearchCriteria < InvalidOption
+    def initialize(valid_search_criteria)
+      search_criteria = "#{valid_search_criteria[0..-2].map{|key| key.to_s }.join(', ') }, or #{valid_search_criteria.last.to_s}"
+      super("You did not provide any search criteria. Search by #{search_criteria}. See API documentation for details on criteria grouping.")
+    end
+  end
+    
   # Raised if a request is attempted before any connections have been established.
   #class NoConnectionEstablished < RubyOmxException
   #  def initialize

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerLocatorRequest version="1.00">
+  <UDIParameter>
+    <Parameter key="UDIAuthToken">470db4004809083c0048ef983</Parameter>
+    <Parameter key="HTTPBizID">KbmCrvnuTESTINGTESTINGYBlggjNYxGqsujuglguAJhXeKBYD</Parameter>
+    <Parameter key="LastName">ONeil</Parameter>
+    <Parameter key="ZIP">294</Parameter>
+  </UDIParameter>
+</CustomerLocatorRequest>

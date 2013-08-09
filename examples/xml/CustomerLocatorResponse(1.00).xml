@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerLocatorResponse>
+  <Customer customerNumber="10129">
+    <Level code="4">Gold</Level>
+    <Address>
+      <TitleCode>Ms</TitleCode>
+      <Company>Ordermotion</Company>
+      <FirstName>Regina</FirstName>
+      <LastName>Oneil</LastName>
+      <Addr1>9327 Marfield Rd</Addr1>
+      <Addr2/>
+      <City>Summerville</City>
+      <State>SC</State>
+      <ZIP>29483-8643</ZIP>
+      <Country>USA</Country>
+      <TLD>US</TLD>
+      <HouseNumber/>
+      <County/>
+      <Street1>9327 Marfield Rd</Street1>
+      <Street2/>
+      <Apartment/>
+      <HouseName/>
+      <DependentLocality/>
+      <PhoneNumber>+1 (212) 8773920 x 123</PhoneNumber>
+      <Email>info@ordermotion.com</Email>
+      <FullAddress>9327 Marfield Rd Summerville, SC 29483-8643</FullAddress>
+    </Address>
+    <FlagData>
+      <Flag name="DoNotMail">True</Flag>
+      <Flag name="DoNotRent">True</Flag>
+      <Flag name="NoAVS">True</Flag>
+    </FlagData>
+    <Stats>
+      <LastOrderDate>10/8/2004 1:56:00 PM</LastOrderDate>
+      <LastContactDate>10/9/2004 2:31:00 PM</LastContactDate>
+    </Stats>
+  </Customer>
+  <Success>1</Success>
+</CustomerLocatorResponse>

@@ -84,6 +84,7 @@ module RubyOmx
     xml_accessor :address_type, :from => '@type'
     xml_accessor :title_code, :company, :firstname, :lastname, :address1, :address2, :county, :city, :state, :phone_number, :email, :country
     xml_accessor :first_name, :last_name, :addr1, :addr2, :street1, :street2, :house_number, :sub_city, :building # for CustomerInformationResponse
+    xml_accessor :apartment, :house_name, :dependent_locality, :full_address # for CustomerLookupResponse
     xml_accessor :zip, :from => 'ZIP'
     xml_accessor :tld, :from => 'TLD'
   end
