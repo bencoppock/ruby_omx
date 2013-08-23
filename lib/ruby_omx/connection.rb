@@ -1,21 +1,19 @@
 module RubyOmx
-     
+
   class Connection
 
     def self.connect(options = {}); new(options) end
-      
+
     def initialize(params = {})
-      
+
       # These values are essential to establishing a connection
       @udi_auth_token   = params['udi_auth_token']
-      @server           = (params['server'] || RubyOmx::DEFAULT_HOST) + "?UDIAuthToken=#{@udi_auth_token}"
-      @http_biz_id 			= params['http_biz_id']
+      @server           = (params['server'] || RubyOmx::DEFAULT_HOST)
 			@path = URI.parse(@server).request_uri
-
-      raise MissingConnectionOptions if [@udi_auth_token, @http_biz_id].any? {|option| option.nil?}
+      raise MissingConnectionOptions if @udi_auth_token.nil?
       @http = connect
     end
-      
+
     # Create the Net::HTTP object to use for this connection
     def connect
       uri 							= URI.parse(@server)
@@ -33,7 +31,7 @@ module RubyOmx
       request.content_length = request.body.size
 			request.content_type = "text/xml; charset=utf-8"
       @http.request(request)
-      
+
     rescue Errno::EPIPE, Timeout::Error, Errno::EINVAL, EOFError
       @http = connect
       attempts == 3 ? raise : (attempts += 1; retry)

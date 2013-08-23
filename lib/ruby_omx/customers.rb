@@ -4,7 +4,7 @@ module RubyOmx
     # CustomerLocatorRequest (CLR100) This request type lists possible matches for a customer given some search information.
 
     def build_customer_locator_request(attrs={})
-      CustomerLocatorRequest.new(attrs.merge({:udi_auth_token=>@udi_auth_token, :http_biz_id=>@http_biz_id}))
+      CustomerLocatorRequest.new(attrs.merge({:udi_auth_token=>@udi_auth_token}))
     end
 
     def send_customer_locator_request(attrs={})
@@ -18,7 +18,7 @@ module RubyOmx
     # CustomerInformationRequest (CIR100) This request type provides the customer address and customer flags for a given customer number.
 
     def build_customer_information_request(attrs={})
-      CustomerInformationRequest.new(attrs.merge({:udi_auth_token=>@udi_auth_token, :http_biz_id=>@http_biz_id}))
+      CustomerInformationRequest.new(attrs.merge({:udi_auth_token=>@udi_auth_token}))
     end
 
     def send_customer_information_request(attrs={})
@@ -32,11 +32,11 @@ module RubyOmx
     # CustomerHistoryRequest (CUHR200) This request type lists all the orders that a customer has placed.
 
     def build_customer_history_request(attrs={})
-      CustomerHistoryRequest.new(attrs.merge({:udi_auth_token=>@udi_auth_token, :http_biz_id=>@http_biz_id}))
+      CustomerHistoryRequest.new(attrs.merge({:udi_auth_token=>@udi_auth_token}))
     end
 
     def send_customer_history_request(attrs={})
-      @connection = RubyOmx::Connection.connect({ 'udi_auth_token' => @udi_auth_token, 'http_biz_id' => @http_biz_id, 'server' => ALT_HOST })
+      @connection = RubyOmx::Connection.connect({ 'udi_auth_token' => @udi_auth_token, 'server' => ALT_HOST })
       request = build_customer_history_request(attrs)
       response = post(request.to_xml.to_s)
       return response if request.raw_xml==true || request.raw_xml==1

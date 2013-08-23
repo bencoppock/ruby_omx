@@ -1,17 +1,15 @@
 module RubyOmx
 	DEFAULT_HOST = 'https://api.omx.ordermotion.com/hdde/xml/udi.asp'
 	ALT_HOST = 'https://api.omx.ordermotion.com/OM2/udi.ashx'
-  
+
 	class Base
   	attr_accessor :connection
 
     def initialize(options ={})
-      @http_biz_id = options['http_biz_id']
       @udi_auth_token = options['udi_auth_token']
-      raise RubyOmx::MissingAccessKey.new(['udi auth token', 'http biz id']) unless @udi_auth_token && @http_biz_id
+      raise RubyOmx::MissingAccessKey.new(['udi auth token']) unless @udi_auth_token
       @connection = RubyOmx::Connection.connect(options)
     end
-
 
     # Wraps the current connection's request method and picks the appropriate response class to wrap the response in.
     # If the response is an error, it will raise that error as an exception. All such exceptions can be caught by rescuing
@@ -42,6 +40,6 @@ module RubyOmx
         end
       EVAL
     end
- 
+
   end
 end
