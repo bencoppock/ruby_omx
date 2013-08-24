@@ -8,7 +8,7 @@ module RubyOmx
     xml_accessor :error_detail_0, :from=>'@errorDetail0'
     xml_accessor :error_detail_1, :from=>'@errorDetail1'
     xml_accessor :message, :from=>:content
-    
+
     def to_s
       "#{error_id}: #{error_severity} #{error_detail_0} #{error_detail_1} #{message}"
     end
@@ -17,16 +17,16 @@ module RubyOmx
   class Response < Node
     include ROXML
     xml_convention :camelcase
-    
+
     # This is the factoryish method that is called!, not new
     def self.format(response)
       if response.content_type =~ /xml/ || response.body =~ /<?xml/
-        parse_xml(response)  
+        parse_xml(response)
       else
         response.body
       end
     end
-      
+
     def self.parse_xml(response)
       if [Net::HTTPClientError, Net::HTTPServerError].any? {|error| response.is_a? error }
         puts "ERROR: #{response} -- #{response.body}"
@@ -40,7 +40,7 @@ module RubyOmx
   class Item < Node
     xml_name "Item"
     xml_accessor :item_code, :from=>'@itemCode'
-  end    
+  end
 
   class LineStatus < Node
     xml_name "LineStatus"
@@ -87,7 +87,7 @@ module RubyOmx
     xml_reader :tax_percent, :from=>'@taxPercent', :in=>'Tax', :as=>Float
     xml_accessor :customization_fields, :in=>'ItemCustomizationData', :as=>[CustomizationField]
   end
-    
+
   class CustomItemAttribute < Node
     xml_name "Attribute"
     xml_reader :attribute_id, :from => '@attributeID'
@@ -113,11 +113,11 @@ module RubyOmx
     xml_accessor :value, :from => :content
     xml_accessor :values, :from => :value, :as => [] # for CustomerInformationResponse
   end
-      
+
   class Flag < Node
     xml_name 'Flag'
     xml_accessor :name, :from => '@name'
-    xml_accessor :value, :from => :content      
+    xml_accessor :value, :from => :content
   end
 
   class StandardResponse < Response
@@ -129,5 +129,5 @@ module RubyOmx
       return "success: #{success}, errors: #{error_string}"
     end
   end
-    
+
 end

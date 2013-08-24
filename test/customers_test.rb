@@ -5,7 +5,7 @@ class CustomersTest < MiniTest::Unit::TestCase
     @config = YAML.load_file( File.join(File.dirname(__FILE__), 'test_config.yml') )['test']
     @connection = RubyOmx::Base.new(@config)
   end
-  
+
   def test_customer_locator_search_criteria
     valid_search_criteria = { :customer_number => "10001",
                               :order_number => "24603",
@@ -17,16 +17,16 @@ class CustomersTest < MiniTest::Unit::TestCase
                               :email => "pmp@ordermotion.com",
                               :phone_number => "+1 (212) 8773920 x 123",
                               :credit_card_number => "4111111111111111" }
-    
+
     valid_search_criteria.each_pair do |search_key, search_value|
       request = RubyOmx::CustomerLocatorRequest.new(search_key => search_value)
       assert_equal false, request.search_criteria.empty?
     end
-    
+
     request = RubyOmx::CustomerLocatorRequest.new( :last_name => valid_search_criteria[:last_name], :zip => valid_search_criteria[:zip] )
     assert_equal 2, request.search_criteria.length
   end
-  
+
   def test_customer_locator_request_from_xml
     request = RubyOmx::CustomerLocatorRequest.format(xml_for('CustomerLocatorRequest(1.00)',200))
     assert_equal '1.00', request.version
@@ -40,19 +40,19 @@ class CustomersTest < MiniTest::Unit::TestCase
     request2 = RubyOmx::CustomerLocatorRequest.format(xml_for('CustomerLocatorRequest(1.00)',200))
     assert_equal request.to_xml.to_s, request2.to_xml.to_s
   end
-  
+
   def test_send_customer_locator_request
     @connection.stubs(:post).returns(xml_for('CustomerLocatorResponse(1.00)',200))
     response = @connection.search_customers({ :last_name => 'ONeil', :zip => '294' })
-    
+
     assert_kind_of CustomerLocatorResponse, response
     assert_equal 1, response.customers.count
-    
+
     customer = response.customers[0]
     assert_equal '10129', customer.customer_number
     assert_equal '4', customer.level_code
     assert_equal 'Gold', customer.level
-    
+
     # Address
     address = customer.address
     assert_equal 'Ms', address.title_code
@@ -76,13 +76,13 @@ class CustomersTest < MiniTest::Unit::TestCase
     assert_equal '+1 (212) 8773920 x 123', address.phone_number
     assert_equal 'info@ordermotion.com', address.email
     assert_equal '9327 Marfield Rd Summerville, SC 29483-8643', address.full_address
-    
+
     # Flag Data
     flags = customer.flags
     assert_equal 3, flags.count
     assert_equal 'NoAVS', flags.last.name
     assert_equal 'True', flags.last.value
-    
+
     # Stats
     stats = customer.stats
     assert_equal "10/8/2004 1:56:00 PM", stats.last_order_date
@@ -140,7 +140,7 @@ class CustomersTest < MiniTest::Unit::TestCase
     assert_equal '20016', response.custom_fields[1].field_id
     assert_equal ['Red', 'Blue'], response.custom_fields[1].values
   end
-  
+
   def test_customer_history_request_from_xml
      request = RubyOmx::CustomerHistoryRequest.format(xml_for('CustomerHistoryRequest(2.00)',200))
      assert_equal '2.00', request.version
@@ -170,7 +170,7 @@ class CustomersTest < MiniTest::Unit::TestCase
      order = response.orders.first
      assert_equal '24603', order.order_number
      assert_equal 2, order.line_items.count
-     
+
      # Line Items
      line_item = order.line_items.first
      assert_equal '1', line_item.line_number
@@ -189,12 +189,12 @@ class CustomersTest < MiniTest::Unit::TestCase
      assert_equal 'OK', line_item.line_status.text
      assert_equal '24603-0', line_item.shipment_number
      assert_equal 10, line_item.line_cogs
-     
+
      # Line Item Customizations
      customization_fields = response.orders.last.line_items.last.customization_fields
      assert_equal 1, customization_fields.length
      customization_field = customization_fields.first
-     assert_equal 'demoText', customization_field.value     
+     assert_equal 'demoText', customization_field.value
      assert_equal '0.00', customization_field.surcharge
      assert_equal '127', customization_field.field_id
      assert_equal 'CrossSell?', customization_field.field_name
