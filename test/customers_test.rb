@@ -176,6 +176,8 @@ class CustomersTest < MiniTest::Unit::TestCase
      assert_equal '1', line_item.line_number
      assert_equal 'APPLE', line_item.item_code
      assert_equal 'Deluxe Princess Fiona', line_item.product_name
+     assert_equal '', line_item.info
+     assert_equal '', line_item.fulfillment_instructions
      assert_equal 1, line_item.quantity
      assert_equal '49.50', line_item.price
      assert_equal '0.00', line_item.line_discount
@@ -187,5 +189,15 @@ class CustomersTest < MiniTest::Unit::TestCase
      assert_equal 'OK', line_item.line_status.text
      assert_equal '24603-0', line_item.shipment_number
      assert_equal 10, line_item.line_cogs
+     
+     # Line Item Customizations
+     customization_fields = response.orders.last.line_items.last.customization_fields
+     assert_equal 1, customization_fields.length
+     customization_field = customization_fields.first
+     assert_equal 'demoText', customization_field.value     
+     assert_equal '0.00', customization_field.surcharge
+     assert_equal '127', customization_field.field_id
+     assert_equal 'CrossSell?', customization_field.field_name
+     assert_equal "False", customization_field.output_fulfillment_file
    end
 end

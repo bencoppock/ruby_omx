@@ -50,6 +50,15 @@ module RubyOmx
     xml_reader :value, :from => :content
   end
 
+  class CustomizationField < Node
+    xml_name "CustomizationField"
+    xml_reader :value
+    xml_reader :surcharge
+    xml_reader :field_id, :from => '@fieldID'
+    xml_reader :field_name, :from => '@fieldName'
+    xml_reader :output_fulfillment_file, :from => '@outputFulfillmentFile'
+  end
+
   # LineItems appear in requests and responses
   class LineItem < Node
     xml_name "LineItem"
@@ -63,6 +72,8 @@ module RubyOmx
 
     # read only attributes that come in the response
     xml_reader :product_name
+    xml_reader :info
+    xml_reader :fulfillment_instructions
     xml_reader :line_status, :as=>LineStatus
     xml_reader :warehouse_reference
     xml_reader :tracking_number
@@ -74,6 +85,7 @@ module RubyOmx
     xml_reader :total_price
     xml_reader :tax
     xml_reader :tax_percent, :from=>'@taxPercent', :in=>'Tax', :as=>Float
+    xml_accessor :customization_fields, :in=>'ItemCustomizationData', :as=>[CustomizationField]
   end
     
   class CustomItemAttribute < Node
