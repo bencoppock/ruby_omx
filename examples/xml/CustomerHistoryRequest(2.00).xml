@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerHistoryRequest version="2.00">
+  <UDIParameter>
+    <Parameter key="UDIAuthToken">470db4004809083c0048ef983</Parameter>
+    <Parameter key="HTTPBizID">KbmCrvnuTESTINGTESTINGYBlggjNYxGqsujuglguAJhXeKBYD</Parameter>
+    <Parameter key="CustomerNumber">24603</Parameter>
+    <Parameter key="Level">2</Parameter>
+    <Parameter key="MaxOrders">10</Parameter>
+    <Parameter key="FromOrderNumber">11512</Parameter>
+  </UDIParameter>
+</CustomerHistoryRequest>

@@ -70,6 +70,10 @@ module RubyOmx
     xml_reader :line_cogs, :from=>'LineCOGS', :as=>Float
     xml_reader :unit_cogs, :from=>'UnitCOGS', :as=>Float
     xml_reader :supplier_item_code
+    xml_reader :line_discount
+    xml_reader :total_price
+    xml_reader :tax
+    xml_reader :tax_percent, :from=>'@taxPercent', :in=>'Tax', :as=>Float
   end
     
   class CustomItemAttribute < Node

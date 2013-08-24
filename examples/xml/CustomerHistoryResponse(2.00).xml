@@ -1,0 +1,1989 @@
+<CustomerHistoryResponse overflow="True" nextOrderNumber="24593">
+  <Success>1</Success>
+  <BasicInformation>
+    <CustomerNumber hasBeenMerged="False" newCustomerNumber="">11552</CustomerNumber>
+  </BasicInformation>
+  <Order orderNumber="24603">
+    <PaymentSummary>
+      <LastCreditCardStatus status="0">pending</LastCreditCardStatus>
+    </PaymentSummary>
+    <OrderHeader>
+      <OrderID/>
+      <Tax>4.88</Tax>
+      <NetAmount>74.50</NetAmount>
+      <PrimaryPaymentType type="1">Credit Card</PrimaryPaymentType>
+      <OriginType textValue="Internet">3</OriginType>
+      <KeycodeDescription>JTest Keycode</KeycodeDescription>
+      <OrderNumber>24603</OrderNumber>
+      <Keycode>JTESTKEY</Keycode>
+      <KeyedDate>2010-05-31 05:35:00</KeyedDate>
+      <StoreCode/>
+      <OrderStatus statusCode="4">review</OrderStatus>
+      <Balance>72.13</Balance>
+      <TotalPaid>16.00</TotalPaid>
+      <TotalAmount>88.13</TotalAmount>
+      <TotalWrittenOff>0.00</TotalWrittenOff>
+      <CollectionsCycle/>
+      <FirstCollectionsDate/>
+      <SalesPricesIncludeTax>False</SalesPricesIncludeTax>
+      <PaymentPlan paymentPlanID="0"/>
+      <OrderDate>2003-04-01 22:15:00</OrderDate>
+      <StandingOrderNote>Next Occurrence Date = '06/02/2010'
+        Occurrence Number = '1'
+        OccurrenceLimit = ''
+        Configuration Name = 'weekly Fixed Catchup'
+      </StandingOrderNote>
+      <TotalDiscount>5.50</TotalDiscount>
+      <CustomFields/>
+      <OrderFlags>VWM</OrderFlags>
+      <OrderStatusDate>2010-05-31 05:36:00</OrderStatusDate>
+    </OrderHeader>
+    <ShippingInformation>
+      <SHTax>0.73</SHTax>
+      <SHTaxPercent>8.38</SHTaxPercent>
+      <Method code="0" fulfillmentCode="FR12345678" fulfillmentIndicator="" carrierServiceCode="5" carrierName="">SC UPS Next ? Day Air</Method>
+      <ShipperName shipperID="4">Solid Cactus Shipper</ShipperName>
+      <ShippingAmount>8.75</ShippingAmount>
+      <ShippingDocumentVersion>A</ShippingDocumentVersion>
+      <Shipment shipmentID="" transmissionID="">
+        <File fileSubCode="0" fileNumber="0" fileName=""/>
+        <ShipmentNumber>24603-</ShipmentNumber>
+        <TotalLines>2</TotalLines>
+        <TotalUnits>2</TotalUnits>
+        <TotalWeight>30.00</TotalWeight>
+        <TotalShippingWeight>1.02</TotalShippingWeight>
+        <Cart controlNumber="" pickSequenceNumber=""/>
+        <ShipDate/>
+        <TrackingNumber/>
+      </Shipment>
+      <GiftWrapping textValue="True">1</GiftWrapping>
+      <GiftMessage>Happy Birthday Mauro!!</GiftMessage>
+      <GiftSender/>
+      <GiftRecipient/>
+      <SpecialInstructions>Please wrap this carefully</SpecialInstructions>
+      <Address type="ShipTo" isScheduled="False">
+        <FullName>MAURICE EVANS-ASDF'FDF</FullName>
+        <Company/>
+        <Title code="0" alphaCode=" "/>
+        <FullAddress>MAURICE EVANS-ASDF'FDF
+          65 W 83RD ST
+          APT 4A
+          NEW YORK, NY 10024
+          USA
+        </FullAddress>
+        <Firstname>MAURICE</Firstname>
+        <MidInitial/>
+        <Lastname>EVANS-ASDF'FDF</Lastname>
+        <Street1>65 W 83RD ST</Street1>
+        <Street2/>
+        <Address1>65 W 83RD ST</Address1>
+        <Address2>APT 4A</Address2>
+        <SubCity/>
+        <Apartment>APT 4A</Apartment>
+        <Building/>
+        <County/>
+        <City>NEW YORK</City>
+        <ZIP>10024</ZIP>
+        <TLD>US</TLD>
+        <State>NY</State>
+        <Email/>
+        <FullPhone/>
+        <UseShipTo>1</UseShipTo>
+        <Country>USA</Country>
+      </Address>
+    </ShippingInformation>
+    <Customer number="11552">
+      <Level/>
+      <DateOfBirth/>
+      <TimeOfBirth/>
+      <PlaceOfBirth/>
+      <PlaceOfBirthTLD/>
+      <PlaceOfBirthState/>
+      <PlaceOfBirthCode/>
+      <NS/>
+      <EW/>
+      <LatitudeReal/>
+      <LongitudeReal/>
+      <Longitude/>
+      <Latitude/>
+      <PlaceOfBirthCodeAF/>
+      <LongitudeAF/>
+      <LatitudeAF/>
+      <ZodiacSign>0</ZodiacSign>
+      <Address type="BillTo">
+        <PhoneNumber>+34 () 555555555</PhoneNumber>
+        <FullName>BILL THOMAS</FullName>
+        <Company/>
+        <Title code="0" alphaCode=" "/>
+        <FullAddress>BILL THOMAS
+          251 W 30TH ST
+          APT 12E
+          NEW YORK, NY 10001
+          USA
+        </FullAddress>
+        <Firstname>BILL</Firstname>
+        <MidInitial/>
+        <Lastname>THOMAS</Lastname>
+        <Street1>251 W 30TH ST</Street1>
+        <Street2/>
+        <Address1>251 W 30TH ST</Address1>
+        <Address2>APT 12E</Address2>
+        <SubCity/>
+        <Apartment>APT 12E</Apartment>
+        <Building/>
+        <County/>
+        <City>NEW YORK</City>
+        <ZIP>10001</ZIP>
+        <TLD>US</TLD>
+        <State>NY</State>
+        <Email>a|aad@c.com</Email>
+      </Address>
+      <FlagData>
+        <Flag/>
+        <Flag name="DoNotMailFlag">True</Flag>
+        <Flag name="NixieFlag">False</Flag>
+        <Flag name="BadDebtFlag">False</Flag>
+        <Flag name="DoNotRentFlag">False</Flag>
+        <Flag name="DoNotEmailFlag">True</Flag>
+        <Flag name="DoNotCallFlag">True</Flag>
+      </FlagData>
+    </Customer>
+    <OrderDetail>
+      <LineItem lineNumber="1" output="" parentLineNumber="0" orderLineAdditionType="" originalLineNumber="">
+        <StandingOrder configurationID="5" configurationName="weekly Dynamic" recurrenceCount="1" shippedLegNumber="1" parentWaitDate="4/8/2013" />
+        <ShipmentNumber shipmentID="0" thisShipment="False">24603-0</ShipmentNumber>
+        <DefaultUnitPrice>55</DefaultUnitPrice>
+        <LineCOGS>10</LineCOGS>
+        <ItemCode parentLineItemCode="">APPLE</ItemCode>
+        <PricingKeycode>JTESTKEY2</PricingKeycode>
+        <FulfillmentReference>APPLE</FulfillmentReference>
+        <ProductName>Deluxe Princess Fiona</ProductName>
+        <Info/>
+        <PickLocation zone="" aisle="" shelf="" bin="05A7" location="05A7">05A7</PickLocation>
+        <FulfillmentInstructions/>
+        <Quantity bonus="0">1</Quantity>
+        <ShippingQuantity bonus="0">0</ShippingQuantity>
+        <Price priceType="U">49.50</Price>
+        <Tax taxPercent="8.3750">4.14562</Tax>
+        <Recurrence RecurrencePatternID="28" RecurrenceCount="1" ConfigurationID="5">
+          <RecurrenceDiscountAmount>0</RecurrenceDiscountAmount>
+          <RecurrenceDiscountPercent>10</RecurrenceDiscountPercent>
+        </Recurrence>
+        <TotalPrice>49.50</TotalPrice>
+        <FileSubCode>0</FileSubCode>
+        <FileNumber>0</FileNumber>
+        <LineStatus date="5/31/2010 5:36:00 AM" text="OK">4</LineStatus>
+        <LineDiscount>0.00</LineDiscount>
+      </LineItem>
+      <LineItem lineNumber="2" output="" parentLineNumber="0" orderLineAdditionType="" originalLineNumber="">
+        <ShipmentNumber shipmentID="0" thisShipment="False">24603-0</ShipmentNumber>
+        <DefaultUnitPrice>25</DefaultUnitPrice>
+        <LineCOGS>11</LineCOGS>
+        <ItemCode parentLineItemCode="">WATCH</ItemCode>
+        <FulfillmentReference>WATCH</FulfillmentReference>
+        <ProductName>111</ProductName>
+        <Info/>
+        <PickLocation zone="" aisle="" shelf="" bin="" location="">-</PickLocation>
+        <FulfillmentInstructions>True</FulfillmentInstructions>
+        <Quantity bonus="0">1</Quantity>
+        <ShippingQuantity bonus="0">0</ShippingQuantity>
+        <Price priceType="U">25.00</Price>
+        <Tax taxPercent="0.0000">0.00000</Tax>
+        <TotalPrice>25.00</TotalPrice>
+        <FileSubCode>0</FileSubCode>
+        <FileNumber>0</FileNumber>
+        <LineStatus date="5/31/2010 5:36:00 AM" text="OK">40</LineStatus>
+        <LineDiscount>0.00</LineDiscount>
+        <ItemCustomizationData>
+          <CustomizationField fieldID="127" fieldName="CrossSell?" outputFulfillmentFile="False">
+            <Value>demoText</Value>
+            <Surcharge>0.00</Surcharge>
+          </CustomizationField>
+        </ItemCustomizationData>
+      </LineItem>
+    </OrderDetail>
+  </Order>
+  <Order orderNumber="24602">
+    <PaymentSummary>
+      <LastCreditCardStatus status="0">pending</LastCreditCardStatus>
+    </PaymentSummary>
+    <OrderHeader>
+      <OrderID/>
+      <Tax>4.88</Tax>
+      <NetAmount>74.50</NetAmount>
+      <PrimaryPaymentType type="1">Credit Card</PrimaryPaymentType>
+      <OriginType textValue=""/>
+      <KeycodeDescription>JTest Keycode</KeycodeDescription>
+      <OrderNumber>24602</OrderNumber>
+      <Keycode>JTESTKEY</Keycode>
+      <KeyedDate>2010-05-31 05:32:00</KeyedDate>
+      <StoreCode/>
+      <OrderStatus statusCode="4">review</OrderStatus>
+      <Balance>76.13</Balance>
+      <TotalPaid>12.00</TotalPaid>
+      <TotalAmount>88.13</TotalAmount>
+      <TotalWrittenOff>0.00</TotalWrittenOff>
+      <CollectionsCycle/>
+      <FirstCollectionsDate/>
+      <SalesPricesIncludeTax>False</SalesPricesIncludeTax>
+      <PaymentPlan paymentPlanID="0"/>
+      <OrderDate>2003-04-01 22:15:00</OrderDate>
+      <StandingOrderNote>Next Occurrence Date = '06/02/2010'
+        Occurrence Number = '1'
+        OccurrenceLimit = ''
+        Configuration Name = 'weekly Fixed Catchup'
+      </StandingOrderNote>
+      <TotalDiscount>5.50</TotalDiscount>
+      <CustomFields/>
+      <OrderFlags>VWM</OrderFlags>
+      <OrderStatusDate>2010-05-31 05:32:00</OrderStatusDate>
+    </OrderHeader>
+    <ShippingInformation>
+      <SHTax>0.73</SHTax>
+      <SHTaxPercent>8.38</SHTaxPercent>
+      <Method code="0" fulfillmentCode="FR12345678" fulfillmentIndicator="" carrierServiceCode="5" carrierName="">SC UPS Next ? Day Air</Method>
+      <ShipperName shipperID="4">Solid Cactus Shipper</ShipperName>
+      <ShippingAmount>8.75</ShippingAmount>
+      <ShippingDocumentVersion>A</ShippingDocumentVersion>
+      <Shipment shipmentID="" transmissionID="">
+        <File fileSubCode="0" fileNumber="0" fileName=""/>
+        <ShipmentNumber>24602-</ShipmentNumber>
+        <TotalLines>2</TotalLines>
+        <TotalUnits>2</TotalUnits>
+        <TotalWeight>30.00</TotalWeight>
+        <TotalShippingWeight>1.02</TotalShippingWeight>
+        <Cart controlNumber="" pickSequenceNumber=""/>
+        <ShipDate/>
+        <TrackingNumber/>
+      </Shipment>
+      <GiftWrapping textValue="True">1</GiftWrapping>
+      <GiftMessage>Happy Birthday Mauro!!</GiftMessage>
+      <GiftSender/>
+      <GiftRecipient/>
+      <SpecialInstructions>Please wrap this carefully</SpecialInstructions>
+      <Address type="ShipTo" isScheduled="True">
+        <FullName>MAURICE EVANS-ASDF'FDF</FullName>
+        <Company/>
+        <Title code="0" alphaCode=" "/>
+        <FullAddress>MAURICE EVANS-ASDF'FDF
+          65 W 83RD ST
+          APT 4A
+          NEW YORK, NY 10024
+          USA
+        </FullAddress>
+        <Firstname>MAURICE</Firstname>
+        <MidInitial/>
+        <Lastname>EVANS-ASDF'FDF</Lastname>
+        <Street1>65 W 83RD ST</Street1>
+        <Street2/>
+        <Address1>65 W 83RD ST</Address1>
+        <Address2>APT 4A</Address2>
+        <SubCity/>
+        <Apartment>APT 4A</Apartment>
+        <Building/>
+        <County/>
+        <City>NEW YORK</City>
+        <ZIP>10024</ZIP>
+        <TLD>US</TLD>
+        <State>NY</State>
+        <Email/>
+        <FullPhone/>
+        <UseShipTo>1</UseShipTo>
+        <Country>USA</Country>
+      </Address>
+    </ShippingInformation>
+    <Customer number="11552">
+      <Level/>
+      <DateOfBirth/>
+      <TimeOfBirth/>
+      <PlaceOfBirth/>
+      <PlaceOfBirthTLD/>
+      <PlaceOfBirthState/>
+      <PlaceOfBirthCode/>
+      <NS/>
+      <EW/>
+      <LatitudeReal/>
+      <LongitudeReal/>
+      <Longitude/>
+      <Latitude/>
+      <PlaceOfBirthCodeAF/>
+      <LongitudeAF/>
+      <LatitudeAF/>
+      <ZodiacSign>0</ZodiacSign>
+      <Address type="BillTo">
+        <PhoneNumber>+34 () 555555555</PhoneNumber>
+        <FullName>BILL THOMAS</FullName>
+        <Company/>
+        <Title code="0" alphaCode=" "/>
+        <FullAddress>BILL THOMAS
+          251 W 30TH ST
+          APT 12E
+          NEW YORK, NY 10001
+          USA
+        </FullAddress>
+        <Firstname>BILL</Firstname>
+        <MidInitial/>
+        <Lastname>THOMAS</Lastname>
+        <Street1>251 W 30TH ST</Street1>
+        <Street2/>
+        <Address1>251 W 30TH ST</Address1>
+        <Address2>APT 12E</Address2>
+        <SubCity/>
+        <Apartment>APT 12E</Apartment>
+        <Building/>
+        <County/>
+        <City>NEW YORK</City>
+        <ZIP>10001</ZIP>
+        <TLD>US</TLD>
+        <State>NY</State>
+        <Email>a|aad@c.com</Email>
+      </Address>
+      <FlagData>
+        <Flag/>
+        <Flag name="DoNotMailFlag">True</Flag>
+        <Flag name="NixieFlag">False</Flag>
+        <Flag name="BadDebtFlag">False</Flag>
+        <Flag name="DoNotRentFlag">False</Flag>
+        <Flag name="DoNotEmailFlag">True</Flag>
+        <Flag name="DoNotCallFlag">True</Flag>
+      </FlagData>
+    </Customer>
+    <OrderDetail>
+      <LineItem lineNumber="1" output="" parentLineNumber="0" orderLineAdditionType="" originalLineNumber="">
+        <ShipmentNumber shipmentID="0" thisShipment="False">24602-0</ShipmentNumber>
+        <DefaultUnitPrice>55</DefaultUnitPrice>
+        <LineCOGS>10</LineCOGS>
+        <ItemCode parentLineItemCode="">APPLE</ItemCode>
+        <PricingKeycode>JAPPLE2</PricingKeycode>
+        <FulfillmentReference>APPLE</FulfillmentReference>
+        <ProductName>Deluxe Princess Fiona�,� Child</ProductName>
+        <Info/>
+        <PickLocation zone="" aisle="" shelf="" bin="05A7" location="05A7">05A7</PickLocation>
+        <FulfillmentInstructions/>
+        <Quantity bonus="0">1</Quantity>
+        <ShippingQuantity bonus="0">0</ShippingQuantity>
+        <Price priceType="U">49.50</Price>
+        <Tax taxPercent="8.3750">4.14562</Tax>
+        <Recurrence RecurrencePatternID="28" RecurrenceCount="1" ConfigurationID="5">
+          <RecurrenceDiscountAmount>0</RecurrenceDiscountAmount>
+          <RecurrenceDiscountPercent>10</RecurrenceDiscountPercent>
+        </Recurrence>
+        <TotalPrice>49.50</TotalPrice>
+        <FileSubCode>0</FileSubCode>
+        <FileNumber>0</FileNumber>
+        <LineStatus date="5/31/2010 5:32:00 AM" text="OK">4</LineStatus>
+        <LineDiscount>0.00</LineDiscount>
+      </LineItem>
+      <LineItem lineNumber="2" output="" parentLineNumber="0" orderLineAdditionType="" originalLineNumber="">
+        <ShipmentNumber shipmentID="0" thisShipment="False">24602-0</ShipmentNumber>
+        <DefaultUnitPrice>25</DefaultUnitPrice>
+        <LineCOGS>11</LineCOGS>
+        <ItemCode parentLineItemCode="">WATCH</ItemCode>
+        <FulfillmentReference>WATCH</FulfillmentReference>
+        <ProductName>111</ProductName>
+        <Info/>
+        <PickLocation zone="" aisle="" shelf="" bin="" location="">-</PickLocation>
+        <FulfillmentInstructions>True</FulfillmentInstructions>
+        <Quantity bonus="0">1</Quantity>
+        <ShippingQuantity bonus="0">0</ShippingQuantity>
+        <Price priceType="U">25.00</Price>
+        <Tax taxPercent="0.0000">0.00000</Tax>
+        <TotalPrice>25.00</TotalPrice>
+        <FileSubCode>0</FileSubCode>
+        <FileNumber>0</FileNumber>
+        <LineStatus date="5/31/2010 5:32:00 AM" text="OK">4</LineStatus>
+        <LineDiscount>0.00</LineDiscount>
+        <ItemCustomizationData>
+          <CustomizationField fieldID="127" fieldName="CrossSell?" outputFulfillmentFile="False">
+            <Value>demoText</Value>
+            <Surcharge>0.00</Surcharge>
+          </CustomizationField>
+        </ItemCustomizationData>
+      </LineItem>
+    </OrderDetail>
+  </Order>
+  <Order orderNumber="24601">
+    <PaymentSummary>
+      <LastCreditCardStatus status="11">authorization approved</LastCreditCardStatus>
+    </PaymentSummary>
+    <OrderHeader>
+      <OrderID/>
+      <Tax>4.88</Tax>
+      <NetAmount>74.50</NetAmount>
+      <PrimaryPaymentType type="1">Credit Card</PrimaryPaymentType>
+      <OriginType textValue="Internet">3</OriginType>
+      <KeycodeDescription>JTest Keycode</KeycodeDescription>
+      <OrderNumber>24601</OrderNumber>
+      <Keycode>JTESTKEY2</Keycode>
+      <KeyedDate>2010-05-31 05:29:00</KeyedDate>
+      <StoreCode/>
+      <OrderStatus statusCode="4">review</OrderStatus>
+      <Balance>76.13</Balance>
+      <TotalPaid>12.00</TotalPaid>
+      <TotalAmount>88.13</TotalAmount>
+      <TotalWrittenOff>0.00</TotalWrittenOff>
+      <CollectionsCycle/>
+      <FirstCollectionsDate/>
+      <SalesPricesIncludeTax>False</SalesPricesIncludeTax>
+      <PaymentPlan paymentPlanID="0"/>
+      <OrderDate>2003-04-01 22:15:00</OrderDate>
+      <StandingOrderNote>Next Occurrence Date = '06/02/2010'
+        Occurrence Number = '1'
+        OccurrenceLimit = ''
+        Configuration Name = 'weekly Fixed Catchup'
+      </StandingOrderNote>
+      <TotalDiscount>5.50</TotalDiscount>
+      <CustomFields/>
+      <OrderFlags>VWM</OrderFlags>
+      <OrderStatusDate>2010-05-31 05:30:00</OrderStatusDate>
+    </OrderHeader>
+    <ShippingInformation>
+      <SHTax>0.73</SHTax>
+      <SHTaxPercent>8.38</SHTaxPercent>
+      <Method code="0" fulfillmentCode="FR12345678" fulfillmentIndicator="" carrierServiceCode="5" carrierName="">SC UPS Next ? Day Air</Method>
+      <ShipperName shipperID="4">Solid Cactus Shipper</ShipperName>
+      <ShippingAmount>8.75</ShippingAmount>
+      <ShippingDocumentVersion>A</ShippingDocumentVersion>
+      <Shipment shipmentID="" transmissionID="">
+        <File fileSubCode="0" fileNumber="0" fileName=""/>
+        <ShipmentNumber>24601-</ShipmentNumber>
+        <TotalLines>2</TotalLines>
+        <TotalUnits>2</TotalUnits>
+        <TotalWeight>30.00</TotalWeight>
+        <TotalShippingWeight>1.02</TotalShippingWeight>
+        <Cart controlNumber="" pickSequenceNumber=""/>
+        <ShipDate/>
+        <TrackingNumber/>
+      </Shipment>
+      <GiftWrapping textValue="True">1</GiftWrapping>
+      <GiftMessage>Happy Birthday Mauro!!</GiftMessage>
+      <GiftSender/>
+      <GiftRecipient/>
+      <SpecialInstructions>Please wrap this carefully</SpecialInstructions>
+      <Address type="ShipTo" isScheduled="False">
+        <FullName>MAURICE EVANS-ASDF'FDF</FullName>
+        <Company/>
+        <Title code="0" alphaCode=" "/>
+        <FullAddress>MAURICE EVANS-ASDF'FDF
+          65 W 83RD ST
+          APT 4A
+          NEW YORK, NY 10024
+          USA
+        </FullAddress>
+        <Firstname>MAURICE</Firstname>
+        <MidInitial/>
+        <Lastname>EVANS-ASDF'FDF</Lastname>
+        <Street1>65 W 83RD ST</Street1>
+        <Street2/>
+        <Address1>65 W 83RD ST</Address1>
+        <Address2>APT 4A</Address2>
+        <SubCity/>
+        <Apartment>APT 4A</Apartment>
+        <Building/>
+        <County/>
+        <City>NEW YORK</City>
+        <ZIP>10024</ZIP>
+        <TLD>US</TLD>
+        <State>NY</State>
+        <Email/>
+        <FullPhone/>
+        <UseShipTo>1</UseShipTo>
+        <Country>USA</Country>
+      </Address>
+    </ShippingInformation>
+    <Customer number="11552">
+      <Level/>
+      <DateOfBirth/>
+      <TimeOfBirth/>
+      <PlaceOfBirth/>
+      <PlaceOfBirthTLD/>
+      <PlaceOfBirthState/>
+      <PlaceOfBirthCode/>
+      <NS/>
+      <EW/>
+      <LatitudeReal/>
+      <LongitudeReal/>
+      <Longitude/>
+      <Latitude/>
+      <PlaceOfBirthCodeAF/>
+      <LongitudeAF/>
+      <LatitudeAF/>
+      <ZodiacSign>0</ZodiacSign>
+      <Address type="BillTo">
+        <PhoneNumber>+34 () 555555555</PhoneNumber>
+        <FullName>BILL THOMAS</FullName>
+        <Company/>
+        <Title code="0" alphaCode=" "/>
+        <FullAddress>BILL THOMAS
+          251 W 30TH ST
+          APT 12E
+          NEW YORK, NY 10001
+          USA
+        </FullAddress>
+        <Firstname>BILL</Firstname>
+        <MidInitial/>
+        <Lastname>THOMAS</Lastname>
+        <Street1>251 W 30TH ST</Street1>
+        <Street2/>
+        <Address1>251 W 30TH ST</Address1>
+        <Address2>APT 12E</Address2>
+        <SubCity/>
+        <Apartment>APT 12E</Apartment>
+        <Building/>
+        <County/>
+        <City>NEW YORK</City>
+        <ZIP>10001</ZIP>
+        <TLD>US</TLD>
+        <State>NY</State>
+        <Email>a|aad@c.com</Email>
+      </Address>
+      <FlagData>
+        <Flag/>
+        <Flag name="DoNotMailFlag">True</Flag>
+        <Flag name="NixieFlag">False</Flag>
+        <Flag name="BadDebtFlag">False</Flag>
+        <Flag name="DoNotRentFlag">False</Flag>
+        <Flag name="DoNotEmailFlag">True</Flag>
+        <Flag name="DoNotCallFlag">True</Flag>
+      </FlagData>
+    </Customer>
+    <OrderDetail>
+      <LineItem lineNumber="1" output="" parentLineNumber="0" orderLineAdditionType="" originalLineNumber="">
+        <ShipmentNumber shipmentID="0" thisShipment="False">24601-0</ShipmentNumber>
+        <DefaultUnitPrice>55</DefaultUnitPrice>
+        <LineCOGS>10</LineCOGS>
+        <ItemCode parentLineItemCode="">APPLE</ItemCode>
+        <FulfillmentReference>APPLE</FulfillmentReference>
+        <ProductName>Deluxe Princess Fiona�,� Child</ProductName>
+        <Info/>
+        <PickLocation zone="" aisle="" shelf="" bin="05A7" location="05A7">05A7</PickLocation>
+        <FulfillmentInstructions/>
+        <Quantity bonus="0">1</Quantity>
+        <ShippingQuantity bonus="0">0</ShippingQuantity>
+        <Price priceType="U">49.50</Price>
+        <Tax taxPercent="8.3750">4.14562</Tax>
+        <Recurrence RecurrencePatternID="28" RecurrenceCount="1" ConfigurationID="5">
+          <RecurrenceDiscountAmount>0</RecurrenceDiscountAmount>
+          <RecurrenceDiscountPercent>10</RecurrenceDiscountPercent>
+        </Recurrence>
+        <TotalPrice>49.50</TotalPrice>
+        <FileSubCode>0</FileSubCode>
+        <FileNumber>0</FileNumber>
+        <LineStatus date="5/31/2010 5:30:00 AM" text="OK">4</LineStatus>
+        <LineDiscount>0.00</LineDiscount>
+      </LineItem>
+      <LineItem lineNumber="2" output="" parentLineNumber="0" orderLineAdditionType="" originalLineNumber="">
+        <ShipmentNumber shipmentID="0" thisShipment="False">24601-0</ShipmentNumber>
+        <DefaultUnitPrice>25</DefaultUnitPrice>
+        <LineCOGS>11</LineCOGS>
+        <ItemCode parentLineItemCode="">WATCH</ItemCode>
+        <FulfillmentReference>WATCH</FulfillmentReference>
+        <ProductName>111</ProductName>
+        <Info/>
+        <PickLocation zone="" aisle="" shelf="" bin="" location="">-</PickLocation>
+        <FulfillmentInstructions>True</FulfillmentInstructions>
+        <Quantity bonus="0">1</Quantity>
+        <ShippingQuantity bonus="0">0</ShippingQuantity>
+        <Price priceType="U">25.00</Price>
+        <Tax taxPercent="0.0000">0.00000</Tax>
+        <TotalPrice>25.00</TotalPrice>
+        <FileSubCode>0</FileSubCode>
+        <FileNumber>0</FileNumber>
+        <LineStatus date="5/31/2010 5:30:00 AM" text="OK">4</LineStatus>
+        <LineDiscount>0.00</LineDiscount>
+        <ItemCustomizationData>
+          <CustomizationField fieldID="127" fieldName="CrossSell?" outputFulfillmentFile="False">
+            <Value>demoText</Value>
+            <Surcharge>0.00</Surcharge>
+          </CustomizationField>
+        </ItemCustomizationData>
+      </LineItem>
+    </OrderDetail>
+  </Order>
+  <Order orderNumber="24600">
+    <PaymentSummary>
+      <LastCreditCardStatus status="11">authorization approved</LastCreditCardStatus>
+    </PaymentSummary>
+    <OrderHeader>
+      <OrderID/>
+      <Tax>4.88</Tax>
+      <NetAmount>74.50</NetAmount>
+      <PrimaryPaymentType type="1">Credit Card</PrimaryPaymentType>
+      <OriginType textValue="Internet">3</OriginType>
+      <KeycodeDescription>JTest Keycode</KeycodeDescription>
+      <OrderNumber>24600</OrderNumber>
+      <Keycode>JTESTKEY</Keycode>
+      <KeyedDate>2010-05-31 05:28:00</KeyedDate>
+      <StoreCode/>
+      <OrderStatus statusCode="4">review</OrderStatus>
+      <Balance>76.13</Balance>
+      <TotalPaid>12.00</TotalPaid>
+      <TotalAmount>88.13</TotalAmount>
+      <TotalWrittenOff>0.00</TotalWrittenOff>
+      <CollectionsCycle/>
+      <FirstCollectionsDate/>
+      <SalesPricesIncludeTax>False</SalesPricesIncludeTax>
+      <PaymentPlan paymentPlanID="0"/>
+      <OrderDate>2003-04-01 22:15:00</OrderDate>
+      <StandingOrderNote>Next Occurrence Date = '06/02/2010'
+        Occurrence Number = '1'
+        OccurrenceLimit = ''
+        Configuration Name = 'weekly Fixed Catchup'
+      </StandingOrderNote>
+      <TotalDiscount>5.50</TotalDiscount>
+      <CustomFields/>
+      <OrderFlags>VWM</OrderFlags>
+      <OrderStatusDate>2010-05-31 05:29:00</OrderStatusDate>
+    </OrderHeader>
+    <ShippingInformation>
+      <SHTax>0.73</SHTax>
+      <SHTaxPercent>8.38</SHTaxPercent>
+      <Method code="0" fulfillmentCode="FR12345678" fulfillmentIndicator="" carrierServiceCode="5" carrierName="">SC UPS Next ? Day Air</Method>
+      <ShipperName shipperID="4">Solid Cactus Shipper</ShipperName>
+      <ShippingAmount>8.75</ShippingAmount>
+      <ShippingDocumentVersion>A</ShippingDocumentVersion>
+      <Shipment shipmentID="" transmissionID="">
+        <File fileSubCode="0" fileNumber="0" fileName=""/>
+        <ShipmentNumber>24600-</ShipmentNumber>
+        <TotalLines>2</TotalLines>
+        <TotalUnits>2</TotalUnits>
+        <TotalWeight>30.00</TotalWeight>
+        <TotalShippingWeight>1.02</TotalShippingWeight>
+        <Cart controlNumber="" pickSequenceNumber=""/>
+        <ShipDate/>
+        <TrackingNumber/>
+      </Shipment>
+      <GiftWrapping textValue="True">1</GiftWrapping>
+      <GiftMessage>Happy Birthday Mauro!!</GiftMessage>
+      <GiftSender/>
+      <GiftRecipient/>
+      <SpecialInstructions>Please wrap this carefully</SpecialInstructions>
+      <Address type="ShipTo" isScheduled="False">
+        <FullName>MAURICE EVANS-ASDF'FDF</FullName>
+        <Company/>
+        <Title code="0" alphaCode=" "/>
+        <FullAddress>MAURICE EVANS-ASDF'FDF
+          65 W 83RD ST
+          APT 4A
+          NEW YORK, NY 10024
+          USA
+        </FullAddress>
+        <Firstname>MAURICE</Firstname>
+        <MidInitial/>
+        <Lastname>EVANS-ASDF'FDF</Lastname>
+        <Street1>65 W 83RD ST</Street1>
+        <Street2/>
+        <Address1>65 W 83RD ST</Address1>
+        <Address2>APT 4A</Address2>
+        <SubCity/>
+        <Apartment>APT 4A</Apartment>
+        <Building/>
+        <County/>
+        <City>NEW YORK</City>
+        <ZIP>10024</ZIP>
+        <TLD>US</TLD>
+        <State>NY</State>
+        <Email/>
+        <FullPhone/>
+        <UseShipTo>1</UseShipTo>
+        <Country>USA</Country>
+      </Address>
+    </ShippingInformation>
+    <Customer number="11552">
+      <Level/>
+      <DateOfBirth/>
+      <TimeOfBirth/>
+      <PlaceOfBirth/>
+      <PlaceOfBirthTLD/>
+      <PlaceOfBirthState/>
+      <PlaceOfBirthCode/>
+      <NS/>
+      <EW/>
+      <LatitudeReal/>
+      <LongitudeReal/>
+      <Longitude/>
+      <Latitude/>
+      <PlaceOfBirthCodeAF/>
+      <LongitudeAF/>
+      <LatitudeAF/>
+      <ZodiacSign>0</ZodiacSign>
+      <Address type="BillTo">
+        <PhoneNumber>+34 () 555555555</PhoneNumber>
+        <FullName>BILL THOMAS</FullName>
+        <Company/>
+        <Title code="0" alphaCode=" "/>
+        <FullAddress>BILL THOMAS
+          251 W 30TH ST
+          APT 12E
+          NEW YORK, NY 10001
+          USA
+        </FullAddress>
+        <Firstname>BILL</Firstname>
+        <MidInitial/>
+        <Lastname>THOMAS</Lastname>
+        <Street1>251 W 30TH ST</Street1>
+        <Street2/>
+        <Address1>251 W 30TH ST</Address1>
+        <Address2>APT 12E</Address2>
+        <SubCity/>
+        <Apartment>APT 12E</Apartment>
+        <Building/>
+        <County/>
+        <City>NEW YORK</City>
+        <ZIP>10001</ZIP>
+        <TLD>US</TLD>
+        <State>NY</State>
+        <Email>a|aad@c.com</Email>
+      </Address>
+      <FlagData>
+        <Flag/>
+        <Flag name="DoNotMailFlag">True</Flag>
+        <Flag name="NixieFlag">False</Flag>
+        <Flag name="BadDebtFlag">False</Flag>
+        <Flag name="DoNotRentFlag">False</Flag>
+        <Flag name="DoNotEmailFlag">True</Flag>
+        <Flag name="DoNotCallFlag">True</Flag>
+      </FlagData>
+    </Customer>
+    <OrderDetail>
+      <LineItem lineNumber="1" output="" parentLineNumber="0" orderLineAdditionType="" originalLineNumber="">
+        <ShipmentNumber shipmentID="0" thisShipment="False">24600-0</ShipmentNumber>
+        <DefaultUnitPrice>55</DefaultUnitPrice>
+        <LineCOGS>10</LineCOGS>
+        <ItemCode parentLineItemCode="">APPLE</ItemCode>
+        <FulfillmentReference>APPLE</FulfillmentReference>
+        <ProductName>Deluxe Princess Fiona�,� Child</ProductName>
+        <Info/>
+        <PickLocation zone="" aisle="" shelf="" bin="05A7" location="05A7">05A7</PickLocation>
+        <FulfillmentInstructions/>
+        <Quantity bonus="0">1</Quantity>
+        <ShippingQuantity bonus="0">0</ShippingQuantity>
+        <Price priceType="U">49.50</Price>
+        <Tax taxPercent="8.3750">4.14562</Tax>
+        <Recurrence RecurrencePatternID="28" RecurrenceCount="1" ConfigurationID="5">
+          <RecurrenceDiscountAmount>0</RecurrenceDiscountAmount>
+          <RecurrenceDiscountPercent>10</RecurrenceDiscountPercent>
+        </Recurrence>
+        <TotalPrice>49.50</TotalPrice>
+        <FileSubCode>0</FileSubCode>
+        <FileNumber>0</FileNumber>
+        <LineStatus date="5/31/2010 5:29:00 AM" text="OK">4</LineStatus>
+        <LineDiscount>0.00</LineDiscount>
+      </LineItem>
+      <LineItem lineNumber="2" output="" parentLineNumber="0" orderLineAdditionType="" originalLineNumber="">
+        <ShipmentNumber shipmentID="0" thisShipment="False">24600-0</ShipmentNumber>
+        <DefaultUnitPrice>25</DefaultUnitPrice>
+        <LineCOGS>11</LineCOGS>
+        <ItemCode parentLineItemCode="">WATCH</ItemCode>
+        <FulfillmentReference>WATCH</FulfillmentReference>
+        <ProductName>111</ProductName>
+        <Info/>
+        <PickLocation zone="" aisle="" shelf="" bin="" location="">-</PickLocation>
+        <FulfillmentInstructions>True</FulfillmentInstructions>
+        <Quantity bonus="0">1</Quantity>
+        <ShippingQuantity bonus="0">0</ShippingQuantity>
+        <Price priceType="U">25.00</Price>
+        <Tax taxPercent="0.0000">0.00000</Tax>
+        <TotalPrice>25.00</TotalPrice>
+        <FileSubCode>0</FileSubCode>
+        <FileNumber>0</FileNumber>
+        <LineStatus date="5/31/2010 5:29:00 AM" text="OK">4</LineStatus>
+        <LineDiscount>0.00</LineDiscount>
+        <ItemCustomizationData>
+          <CustomizationField fieldID="127" fieldName="CrossSell?" outputFulfillmentFile="False">
+            <Value>demoText</Value>
+            <Surcharge>0.00</Surcharge>
+          </CustomizationField>
+        </ItemCustomizationData>
+      </LineItem>
+    </OrderDetail>
+  </Order>
+  <Order orderNumber="24599">
+    <PaymentSummary>
+      <LastCreditCardStatus status="11">authorization approved</LastCreditCardStatus>
+    </PaymentSummary>
+    <OrderHeader>
+      <OrderID/>
+      <Tax>4.88</Tax>
+      <NetAmount>74.50</NetAmount>
+      <PrimaryPaymentType type="1">Credit Card</PrimaryPaymentType>
+      <OriginType textValue="Internet">3</OriginType>
+      <KeycodeDescription>JTest Keycode</KeycodeDescription>
+      <OrderNumber>24599</OrderNumber>
+      <Keycode>JTESTKEY</Keycode>
+      <KeyedDate>2010-05-31 05:28:00</KeyedDate>
+      <StoreCode/>
+      <OrderStatus statusCode="4">review</OrderStatus>
+      <Balance>76.13</Balance>
+      <TotalPaid>12.00</TotalPaid>
+      <TotalAmount>88.13</TotalAmount>
+      <TotalWrittenOff>0.00</TotalWrittenOff>
+      <CollectionsCycle/>
+      <FirstCollectionsDate/>
+      <SalesPricesIncludeTax>False</SalesPricesIncludeTax>
+      <PaymentPlan paymentPlanID="0"/>
+      <OrderDate>2003-04-01 22:15:00</OrderDate>
+      <StandingOrderNote>Next Occurrence Date = '06/02/2010'
+        Occurrence Number = '1'
+        OccurrenceLimit = ''
+        Configuration Name = 'weekly Fixed Catchup'
+      </StandingOrderNote>
+      <TotalDiscount>5.50</TotalDiscount>
+      <CustomFields/>
+      <OrderFlags>VWM</OrderFlags>
+      <OrderStatusDate>2010-05-31 05:28:00</OrderStatusDate>
+    </OrderHeader>
+    <ShippingInformation>
+      <SHTax>0.73</SHTax>
+      <SHTaxPercent>8.38</SHTaxPercent>
+      <Method code="0" fulfillmentCode="FR12345678" fulfillmentIndicator="" carrierServiceCode="5" carrierName="">SC UPS Next ? Day Air</Method>
+      <ShipperName shipperID="4">Solid Cactus Shipper</ShipperName>
+      <ShippingAmount>8.75</ShippingAmount>
+      <ShippingDocumentVersion>A</ShippingDocumentVersion>
+      <Shipment shipmentID="" transmissionID="">
+        <File fileSubCode="0" fileNumber="0" fileName=""/>
+        <ShipmentNumber>24599-</ShipmentNumber>
+        <TotalLines>2</TotalLines>
+        <TotalUnits>2</TotalUnits>
+        <TotalWeight>30.00</TotalWeight>
+        <TotalShippingWeight>1.02</TotalShippingWeight>
+        <Cart controlNumber="" pickSequenceNumber=""/>
+        <ShipDate/>
+        <TrackingNumber/>
+      </Shipment>
+      <GiftWrapping textValue="True">1</GiftWrapping>
+      <GiftMessage>Happy Birthday Mauro!!</GiftMessage>
+      <GiftSender/>
+      <GiftRecipient/>
+      <SpecialInstructions>Please wrap this carefully</SpecialInstructions>
+      <Address type="ShipTo" isScheduled="False">
+        <FullName>MAURICE EVANS-ASDF'FDF</FullName>
+        <Company/>
+        <Title code="0" alphaCode=" "/>
+        <FullAddress>MAURICE EVANS-ASDF'FDF
+          65 W 83RD ST
+          APT 4A
+          NEW YORK, NY 10024
+          USA
+        </FullAddress>
+        <Firstname>MAURICE</Firstname>
+        <MidInitial/>
+        <Lastname>EVANS-ASDF'FDF</Lastname>
+        <Street1>65 W 83RD ST</Street1>
+        <Street2/>
+        <Address1>65 W 83RD ST</Address1>
+        <Address2>APT 4A</Address2>
+        <SubCity/>
+        <Apartment>APT 4A</Apartment>
+        <Building/>
+        <County/>
+        <City>NEW YORK</City>
+        <ZIP>10024</ZIP>
+        <TLD>US</TLD>
+        <State>NY</State>
+        <Email/>
+        <FullPhone/>
+        <UseShipTo>1</UseShipTo>
+        <Country>USA</Country>
+      </Address>
+    </ShippingInformation>
+    <Customer number="11552">
+      <Level/>
+      <DateOfBirth/>
+      <TimeOfBirth/>
+      <PlaceOfBirth/>
+      <PlaceOfBirthTLD/>
+      <PlaceOfBirthState/>
+      <PlaceOfBirthCode/>
+      <NS/>
+      <EW/>
+      <LatitudeReal/>
+      <LongitudeReal/>
+      <Longitude/>
+      <Latitude/>
+      <PlaceOfBirthCodeAF/>
+      <LongitudeAF/>
+      <LatitudeAF/>
+      <ZodiacSign>0</ZodiacSign>
+      <Address type="BillTo">
+        <PhoneNumber>+34 () 555555555</PhoneNumber>
+        <FullName>BILL THOMAS</FullName>
+        <Company/>
+        <Title code="0" alphaCode=" "/>
+        <FullAddress>BILL THOMAS
+          251 W 30TH ST
+          APT 12E
+          NEW YORK, NY 10001
+          USA
+        </FullAddress>
+        <Firstname>BILL</Firstname>
+        <MidInitial/>
+        <Lastname>THOMAS</Lastname>
+        <Street1>251 W 30TH ST</Street1>
+        <Street2/>
+        <Address1>251 W 30TH ST</Address1>
+        <Address2>APT 12E</Address2>
+        <SubCity/>
+        <Apartment>APT 12E</Apartment>
+        <Building/>
+        <County/>
+        <City>NEW YORK</City>
+        <ZIP>10001</ZIP>
+        <TLD>US</TLD>
+        <State>NY</State>
+        <Email>a|aad@c.com</Email>
+      </Address>
+      <FlagData>
+        <Flag/>
+        <Flag name="DoNotMailFlag">True</Flag>
+        <Flag name="NixieFlag">False</Flag>
+        <Flag name="BadDebtFlag">False</Flag>
+        <Flag name="DoNotRentFlag">False</Flag>
+        <Flag name="DoNotEmailFlag">True</Flag>
+        <Flag name="DoNotCallFlag">True</Flag>
+      </FlagData>
+    </Customer>
+    <OrderDetail>
+      <LineItem lineNumber="1" output="" parentLineNumber="0" orderLineAdditionType="" originalLineNumber="">
+        <ShipmentNumber shipmentID="0" thisShipment="False">24599-0</ShipmentNumber>
+        <DefaultUnitPrice>55</DefaultUnitPrice>
+        <LineCOGS>10</LineCOGS>
+        <ItemCode parentLineItemCode="">APPLE</ItemCode>
+        <FulfillmentReference>APPLE</FulfillmentReference>
+        <ProductName>Deluxe Princess Fiona�,� Child</ProductName>
+        <Info/>
+        <PickLocation zone="" aisle="" shelf="" bin="05A7" location="05A7">05A7</PickLocation>
+        <FulfillmentInstructions/>
+        <Quantity bonus="0">1</Quantity>
+        <ShippingQuantity bonus="0">0</ShippingQuantity>
+        <Price priceType="U">49.50</Price>
+        <Tax taxPercent="8.3750">4.14562</Tax>
+        <Recurrence RecurrencePatternID="28" RecurrenceCount="1" ConfigurationID="5">
+          <RecurrenceDiscountAmount>0</RecurrenceDiscountAmount>
+          <RecurrenceDiscountPercent>10</RecurrenceDiscountPercent>
+        </Recurrence>
+        <TotalPrice>49.50</TotalPrice>
+        <FileSubCode>0</FileSubCode>
+        <FileNumber>0</FileNumber>
+        <LineStatus date="5/31/2010 5:28:00 AM" text="OK">4</LineStatus>
+        <LineDiscount>0.00</LineDiscount>
+      </LineItem>
+      <LineItem lineNumber="2" output="" parentLineNumber="0" orderLineAdditionType="" originalLineNumber="">
+        <ShipmentNumber shipmentID="0" thisShipment="False">24599-0</ShipmentNumber>
+        <DefaultUnitPrice>25</DefaultUnitPrice>
+        <LineCOGS>11</LineCOGS>
+        <ItemCode parentLineItemCode="">WATCH</ItemCode>
+        <FulfillmentReference>WATCH</FulfillmentReference>
+        <ProductName>111</ProductName>
+        <Info/>
+        <PickLocation zone="" aisle="" shelf="" bin="" location="">-</PickLocation>
+        <FulfillmentInstructions>True</FulfillmentInstructions>
+        <Quantity bonus="0">1</Quantity>
+        <ShippingQuantity bonus="0">0</ShippingQuantity>
+        <Price priceType="U">25.00</Price>
+        <Tax taxPercent="0.0000">0.00000</Tax>
+        <TotalPrice>25.00</TotalPrice>
+        <FileSubCode>0</FileSubCode>
+        <FileNumber>0</FileNumber>
+        <LineStatus date="5/31/2010 5:28:00 AM" text="OK">4</LineStatus>
+        <LineDiscount>0.00</LineDiscount>
+        <ItemCustomizationData>
+          <CustomizationField fieldID="127" fieldName="CrossSell?" outputFulfillmentFile="False">
+            <Value>demoText</Value>
+            <Surcharge>0.00</Surcharge>
+          </CustomizationField>
+        </ItemCustomizationData>
+      </LineItem>
+    </OrderDetail>
+  </Order>
+  <Order orderNumber="24598">
+    <PaymentSummary>
+      <LastCreditCardStatus status="11">authorization approved</LastCreditCardStatus>
+    </PaymentSummary>
+    <OrderHeader>
+      <OrderID/>
+      <Tax>4.88</Tax>
+      <NetAmount>74.50</NetAmount>
+      <PrimaryPaymentType type="1">Credit Card</PrimaryPaymentType>
+      <OriginType textValue="Internet">3</OriginType>
+      <KeycodeDescription>JTest Keycode</KeycodeDescription>
+      <OrderNumber>24598</OrderNumber>
+      <Keycode>JTESTKEY</Keycode>
+      <KeyedDate>2010-05-31 05:26:00</KeyedDate>
+      <StoreCode/>
+      <OrderStatus statusCode="4">review</OrderStatus>
+      <Balance>76.13</Balance>
+      <TotalPaid>12.00</TotalPaid>
+      <TotalAmount>88.13</TotalAmount>
+      <TotalWrittenOff>0.00</TotalWrittenOff>
+      <CollectionsCycle/>
+      <FirstCollectionsDate/>
+      <SalesPricesIncludeTax>False</SalesPricesIncludeTax>
+      <PaymentPlan paymentPlanID="0"/>
+      <OrderDate>2003-04-01 22:15:00</OrderDate>
+      <StandingOrderNote>Next Occurrence Date = '06/02/2010'
+        Occurrence Number = '1'
+        OccurrenceLimit = ''
+        Configuration Name = 'weekly Fixed Catchup'
+      </StandingOrderNote>
+      <TotalDiscount>5.50</TotalDiscount>
+      <CustomFields/>
+      <OrderFlags>VWM</OrderFlags>
+      <OrderStatusDate>2010-05-31 05:27:00</OrderStatusDate>
+    </OrderHeader>
+    <ShippingInformation>
+      <SHTax>0.73</SHTax>
+      <SHTaxPercent>8.38</SHTaxPercent>
+      <Method code="0" fulfillmentCode="FR12345678" fulfillmentIndicator="" carrierServiceCode="5" carrierName="">SC UPS Next ? Day Air</Method>
+      <ShipperName shipperID="4">Solid Cactus Shipper</ShipperName>
+      <ShippingAmount>8.75</ShippingAmount>
+      <ShippingDocumentVersion>A</ShippingDocumentVersion>
+      <Shipment shipmentID="" transmissionID="">
+        <File fileSubCode="0" fileNumber="0" fileName=""/>
+        <ShipmentNumber>24598-</ShipmentNumber>
+        <TotalLines>2</TotalLines>
+        <TotalUnits>2</TotalUnits>
+        <TotalWeight>30.00</TotalWeight>
+        <TotalShippingWeight>1.02</TotalShippingWeight>
+        <Cart controlNumber="" pickSequenceNumber=""/>
+        <ShipDate/>
+        <TrackingNumber/>
+      </Shipment>
+      <GiftWrapping textValue="True">1</GiftWrapping>
+      <GiftMessage>Happy Birthday Mauro!!</GiftMessage>
+      <GiftSender/>
+      <GiftRecipient/>
+      <SpecialInstructions>Please wrap this carefully</SpecialInstructions>
+      <Address type="ShipTo" isScheduled="False">
+        <FullName>MAURICE EVANS-ASDF'FDF</FullName>
+        <Company/>
+        <Title code="0" alphaCode=" "/>
+        <FullAddress>MAURICE EVANS-ASDF'FDF
+          65 W 83RD ST
+          APT 4A
+          NEW YORK, NY 10024
+          USA
+        </FullAddress>
+        <Firstname>MAURICE</Firstname>
+        <MidInitial/>
+        <Lastname>EVANS-ASDF'FDF</Lastname>
+        <Street1>65 W 83RD ST</Street1>
+        <Street2/>
+        <Address1>65 W 83RD ST</Address1>
+        <Address2>APT 4A</Address2>
+        <SubCity/>
+        <Apartment>APT 4A</Apartment>
+        <Building/>
+        <County/>
+        <City>NEW YORK</City>
+        <ZIP>10024</ZIP>
+        <TLD>US</TLD>
+        <State>NY</State>
+        <Email/>
+        <FullPhone/>
+        <UseShipTo>1</UseShipTo>
+        <Country>USA</Country>
+      </Address>
+    </ShippingInformation>
+    <Customer number="11552">
+      <Level/>
+      <DateOfBirth/>
+      <TimeOfBirth/>
+      <PlaceOfBirth/>
+      <PlaceOfBirthTLD/>
+      <PlaceOfBirthState/>
+      <PlaceOfBirthCode/>
+      <NS/>
+      <EW/>
+      <LatitudeReal/>
+      <LongitudeReal/>
+      <Longitude/>
+      <Latitude/>
+      <PlaceOfBirthCodeAF/>
+      <LongitudeAF/>
+      <LatitudeAF/>
+      <ZodiacSign>0</ZodiacSign>
+      <Address type="BillTo">
+        <PhoneNumber>+34 () 555555555</PhoneNumber>
+        <FullName>BILL THOMAS</FullName>
+        <Company/>
+        <Title code="0" alphaCode=" "/>
+        <FullAddress>BILL THOMAS
+          251 W 30TH ST
+          APT 12E
+          NEW YORK, NY 10001
+          USA
+        </FullAddress>
+        <Firstname>BILL</Firstname>
+        <MidInitial/>
+        <Lastname>THOMAS</Lastname>
+        <Street1>251 W 30TH ST</Street1>
+        <Street2/>
+        <Address1>251 W 30TH ST</Address1>
+        <Address2>APT 12E</Address2>
+        <SubCity/>
+        <Apartment>APT 12E</Apartment>
+        <Building/>
+        <County/>
+        <City>NEW YORK</City>
+        <ZIP>10001</ZIP>
+        <TLD>US</TLD>
+        <State>NY</State>
+        <Email>a|aad@c.com</Email>
+      </Address>
+      <FlagData>
+        <Flag/>
+        <Flag name="DoNotMailFlag">True</Flag>
+        <Flag name="NixieFlag">False</Flag>
+        <Flag name="BadDebtFlag">False</Flag>
+        <Flag name="DoNotRentFlag">False</Flag>
+        <Flag name="DoNotEmailFlag">True</Flag>
+        <Flag name="DoNotCallFlag">True</Flag>
+      </FlagData>
+    </Customer>
+    <OrderDetail>
+      <LineItem lineNumber="1" output="" parentLineNumber="0" orderLineAdditionType="" originalLineNumber="">
+        <ShipmentNumber shipmentID="0" thisShipment="False">24598-0</ShipmentNumber>
+        <DefaultUnitPrice>55</DefaultUnitPrice>
+        <LineCOGS>10</LineCOGS>
+        <ItemCode parentLineItemCode="">APPLE</ItemCode>
+        <FulfillmentReference>APPLE</FulfillmentReference>
+        <ProductName>Deluxe Princess Fiona�,� Child</ProductName>
+        <Info/>
+        <PickLocation zone="" aisle="" shelf="" bin="05A7" location="05A7">05A7</PickLocation>
+        <FulfillmentInstructions/>
+        <Quantity bonus="0">1</Quantity>
+        <ShippingQuantity bonus="0">0</ShippingQuantity>
+        <Price priceType="U">49.50</Price>
+        <Tax taxPercent="8.3750">4.14562</Tax>
+        <Recurrence RecurrencePatternID="28" RecurrenceCount="1" ConfigurationID="5">
+          <RecurrenceDiscountAmount>0</RecurrenceDiscountAmount>
+          <RecurrenceDiscountPercent>10</RecurrenceDiscountPercent>
+        </Recurrence>
+        <TotalPrice>49.50</TotalPrice>
+        <FileSubCode>0</FileSubCode>
+        <FileNumber>0</FileNumber>
+        <LineStatus date="5/31/2010 5:27:00 AM" text="OK">4</LineStatus>
+        <LineDiscount>0.00</LineDiscount>
+      </LineItem>
+      <LineItem lineNumber="2" output="" parentLineNumber="0" orderLineAdditionType="" originalLineNumber="">
+        <ShipmentNumber shipmentID="0" thisShipment="False">24598-0</ShipmentNumber>
+        <DefaultUnitPrice>25</DefaultUnitPrice>
+        <LineCOGS>11</LineCOGS>
+        <ItemCode parentLineItemCode="">WATCH</ItemCode>
+        <FulfillmentReference>WATCH</FulfillmentReference>
+        <ProductName>111</ProductName>
+        <Info/>
+        <PickLocation zone="" aisle="" shelf="" bin="" location="">-</PickLocation>
+        <FulfillmentInstructions>True</FulfillmentInstructions>
+        <Quantity bonus="0">1</Quantity>
+        <ShippingQuantity bonus="0">0</ShippingQuantity>
+        <Price priceType="U">25.00</Price>
+        <Tax taxPercent="0.0000">0.00000</Tax>
+        <TotalPrice>25.00</TotalPrice>
+        <FileSubCode>0</FileSubCode>
+        <FileNumber>0</FileNumber>
+        <LineStatus date="5/31/2010 5:27:00 AM" text="OK">4</LineStatus>
+        <LineDiscount>0.00</LineDiscount>
+        <ItemCustomizationData>
+          <CustomizationField fieldID="127" fieldName="CrossSell?" outputFulfillmentFile="False">
+            <Value>demoText</Value>
+            <Surcharge>0.00</Surcharge>
+          </CustomizationField>
+        </ItemCustomizationData>
+      </LineItem>
+    </OrderDetail>
+  </Order>
+  <Order orderNumber="24597">
+    <PaymentSummary>
+      <LastCreditCardStatus status="11">authorization approved</LastCreditCardStatus>
+    </PaymentSummary>
+    <OrderHeader>
+      <OrderID/>
+      <Tax>4.88</Tax>
+      <NetAmount>74.50</NetAmount>
+      <PrimaryPaymentType type="1">Credit Card</PrimaryPaymentType>
+      <OriginType textValue="Internet">3</OriginType>
+      <KeycodeDescription>JTest Keycode</KeycodeDescription>
+      <OrderNumber>24597</OrderNumber>
+      <Keycode>JTESTKEY</Keycode>
+      <KeyedDate>2010-05-31 05:23:00</KeyedDate>
+      <StoreCode/>
+      <OrderStatus statusCode="4">review</OrderStatus>
+      <Balance>76.13</Balance>
+      <TotalPaid>12.00</TotalPaid>
+      <TotalAmount>88.13</TotalAmount>
+      <TotalWrittenOff>0.00</TotalWrittenOff>
+      <CollectionsCycle/>
+      <FirstCollectionsDate/>
+      <SalesPricesIncludeTax>False</SalesPricesIncludeTax>
+      <PaymentPlan paymentPlanID="0"/>
+      <OrderDate>2003-04-01 22:15:00</OrderDate>
+      <StandingOrderNote>Next Occurrence Date = '06/02/2010'
+        Occurrence Number = '1'
+        OccurrenceLimit = ''
+        Configuration Name = 'weekly Fixed Catchup'
+      </StandingOrderNote>
+      <TotalDiscount>5.50</TotalDiscount>
+      <CustomFields/>
+      <OrderFlags>VWM</OrderFlags>
+      <OrderStatusDate>2010-05-31 05:24:00</OrderStatusDate>
+    </OrderHeader>
+    <ShippingInformation>
+      <SHTax>0.73</SHTax>
+      <SHTaxPercent>8.38</SHTaxPercent>
+      <Method code="0" fulfillmentCode="FR12345678" fulfillmentIndicator="" carrierServiceCode="5" carrierName="">SC UPS Next ? Day Air</Method>
+      <ShipperName shipperID="4">Solid Cactus Shipper</ShipperName>
+      <ShippingAmount>8.75</ShippingAmount>
+      <ShippingDocumentVersion>A</ShippingDocumentVersion>
+      <Shipment shipmentID="" transmissionID="">
+        <File fileSubCode="0" fileNumber="0" fileName=""/>
+        <ShipmentNumber>24597-</ShipmentNumber>
+        <TotalLines>2</TotalLines>
+        <TotalUnits>2</TotalUnits>
+        <TotalWeight>30.00</TotalWeight>
+        <TotalShippingWeight>1.02</TotalShippingWeight>
+        <Cart controlNumber="" pickSequenceNumber=""/>
+        <ShipDate/>
+        <TrackingNumber/>
+      </Shipment>
+      <GiftWrapping textValue="True">1</GiftWrapping>
+      <GiftMessage>Happy Birthday Mauro!!</GiftMessage>
+      <GiftSender/>
+      <GiftRecipient/>
+      <SpecialInstructions>Please wrap this carefully</SpecialInstructions>
+      <Address type="ShipTo" isScheduled="False">
+        <FullName>MAURICE EVANS-ASDF'FDF</FullName>
+        <Company/>
+        <Title code="0" alphaCode=" "/>
+        <FullAddress>MAURICE EVANS-ASDF'FDF
+          65 W 83RD ST
+          APT 4A
+          NEW YORK, NY 10024
+          USA
+        </FullAddress>
+        <Firstname>MAURICE</Firstname>
+        <MidInitial/>
+        <Lastname>EVANS-ASDF'FDF</Lastname>
+        <Street1>65 W 83RD ST</Street1>
+        <Street2/>
+        <Address1>65 W 83RD ST</Address1>
+        <Address2>APT 4A</Address2>
+        <SubCity/>
+        <Apartment>APT 4A</Apartment>
+        <Building/>
+        <County/>
+        <City>NEW YORK</City>
+        <ZIP>10024</ZIP>
+        <TLD>US</TLD>
+        <State>NY</State>
+        <Email/>
+        <FullPhone/>
+        <UseShipTo>1</UseShipTo>
+        <Country>USA</Country>
+      </Address>
+    </ShippingInformation>
+    <Customer number="11552">
+      <Level/>
+      <DateOfBirth/>
+      <TimeOfBirth/>
+      <PlaceOfBirth/>
+      <PlaceOfBirthTLD/>
+      <PlaceOfBirthState/>
+      <PlaceOfBirthCode/>
+      <NS/>
+      <EW/>
+      <LatitudeReal/>
+      <LongitudeReal/>
+      <Longitude/>
+      <Latitude/>
+      <PlaceOfBirthCodeAF/>
+      <LongitudeAF/>
+      <LatitudeAF/>
+      <ZodiacSign>0</ZodiacSign>
+      <Address type="BillTo">
+        <PhoneNumber>+34 () 555555555</PhoneNumber>
+        <FullName>BILL THOMAS</FullName>
+        <Company/>
+        <Title code="0" alphaCode=" "/>
+        <FullAddress>BILL THOMAS
+          251 W 30TH ST
+          APT 12E
+          NEW YORK, NY 10001
+          USA
+        </FullAddress>
+        <Firstname>BILL</Firstname>
+        <MidInitial/>
+        <Lastname>THOMAS</Lastname>
+        <Street1>251 W 30TH ST</Street1>
+        <Street2/>
+        <Address1>251 W 30TH ST</Address1>
+        <Address2>APT 12E</Address2>
+        <SubCity/>
+        <Apartment>APT 12E</Apartment>
+        <Building/>
+        <County/>
+        <City>NEW YORK</City>
+        <ZIP>10001</ZIP>
+        <TLD>US</TLD>
+        <State>NY</State>
+        <Email>a|aad@c.com</Email>
+      </Address>
+      <FlagData>
+        <Flag/>
+        <Flag name="DoNotMailFlag">True</Flag>
+        <Flag name="NixieFlag">False</Flag>
+        <Flag name="BadDebtFlag">False</Flag>
+        <Flag name="DoNotRentFlag">False</Flag>
+        <Flag name="DoNotEmailFlag">True</Flag>
+        <Flag name="DoNotCallFlag">True</Flag>
+      </FlagData>
+    </Customer>
+    <OrderDetail>
+      <LineItem lineNumber="1" output="" parentLineNumber="0" orderLineAdditionType="" originalLineNumber="">
+        <ShipmentNumber shipmentID="0" thisShipment="False">24597-0</ShipmentNumber>
+        <DefaultUnitPrice>55</DefaultUnitPrice>
+        <LineCOGS>10</LineCOGS>
+        <ItemCode parentLineItemCode="">APPLE</ItemCode>
+        <FulfillmentReference>APPLE</FulfillmentReference>
+        <ProductName>Deluxe Princess Fiona�,� Child</ProductName>
+        <Info/>
+        <PickLocation zone="" aisle="" shelf="" bin="05A7" location="05A7">05A7</PickLocation>
+        <FulfillmentInstructions/>
+        <Quantity bonus="0">1</Quantity>
+        <ShippingQuantity bonus="0">0</ShippingQuantity>
+        <Price priceType="U">49.50</Price>
+        <Tax taxPercent="8.3750">4.14562</Tax>
+        <Recurrence RecurrencePatternID="28" RecurrenceCount="1" ConfigurationID="5">
+          <RecurrenceDiscountAmount>0</RecurrenceDiscountAmount>
+          <RecurrenceDiscountPercent>10</RecurrenceDiscountPercent>
+        </Recurrence>
+        <TotalPrice>49.50</TotalPrice>
+        <FileSubCode>0</FileSubCode>
+        <FileNumber>0</FileNumber>
+        <LineStatus date="5/31/2010 5:24:00 AM" text="OK">4</LineStatus>
+        <LineDiscount>0.00</LineDiscount>
+      </LineItem>
+      <LineItem lineNumber="2" output="" parentLineNumber="0" orderLineAdditionType="" originalLineNumber="">
+        <ShipmentNumber shipmentID="0" thisShipment="False">24597-0</ShipmentNumber>
+        <DefaultUnitPrice>25</DefaultUnitPrice>
+        <LineCOGS>11</LineCOGS>
+        <ItemCode parentLineItemCode="">WATCH</ItemCode>
+        <FulfillmentReference>WATCH</FulfillmentReference>
+        <ProductName>111</ProductName>
+        <Info/>
+        <PickLocation zone="" aisle="" shelf="" bin="" location="">-</PickLocation>
+        <FulfillmentInstructions>True</FulfillmentInstructions>
+        <Quantity bonus="0">1</Quantity>
+        <ShippingQuantity bonus="0">0</ShippingQuantity>
+        <Price priceType="U">25.00</Price>
+        <Tax taxPercent="0.0000">0.00000</Tax>
+        <TotalPrice>25.00</TotalPrice>
+        <FileSubCode>0</FileSubCode>
+        <FileNumber>0</FileNumber>
+        <LineStatus date="5/31/2010 5:24:00 AM" text="OK">4</LineStatus>
+        <LineDiscount>0.00</LineDiscount>
+        <ItemCustomizationData>
+          <CustomizationField fieldID="127" fieldName="CrossSell?" outputFulfillmentFile="False">
+            <Value>demoText</Value>
+            <Surcharge>0.00</Surcharge>
+          </CustomizationField>
+        </ItemCustomizationData>
+      </LineItem>
+    </OrderDetail>
+  </Order>
+  <Order orderNumber="24596">
+    <PaymentSummary>
+      <LastCreditCardStatus status="0">pending</LastCreditCardStatus>
+    </PaymentSummary>
+    <OrderHeader>
+      <OrderID/>
+      <Tax>4.88</Tax>
+      <NetAmount>74.50</NetAmount>
+      <PrimaryPaymentType type="1">Credit Card</PrimaryPaymentType>
+      <OriginType textValue="Internet">3</OriginType>
+      <KeycodeDescription>JTest Keycode</KeycodeDescription>
+      <OrderNumber>24596</OrderNumber>
+      <Keycode>JTESTKEY</Keycode>
+      <KeyedDate>2010-05-31 05:05:00</KeyedDate>
+      <StoreCode/>
+      <OrderStatus statusCode="4">review</OrderStatus>
+      <Balance>76.13</Balance>
+      <TotalPaid>12.00</TotalPaid>
+      <TotalAmount>88.13</TotalAmount>
+      <TotalWrittenOff>0.00</TotalWrittenOff>
+      <CollectionsCycle/>
+      <FirstCollectionsDate/>
+      <SalesPricesIncludeTax>False</SalesPricesIncludeTax>
+      <PaymentPlan paymentPlanID="0"/>
+      <OrderDate>2003-04-01 22:15:00</OrderDate>
+      <StandingOrderNote>Next Occurrence Date = '06/02/2010'
+        Occurrence Number = '1'
+        OccurrenceLimit = ''
+        Configuration Name = 'weekly Fixed Catchup'
+      </StandingOrderNote>
+      <TotalDiscount>5.50</TotalDiscount>
+      <CustomFields/>
+      <OrderFlags>VWM</OrderFlags>
+      <OrderStatusDate>2010-05-31 05:06:00</OrderStatusDate>
+    </OrderHeader>
+    <ShippingInformation>
+      <SHTax>0.73</SHTax>
+      <SHTaxPercent>8.38</SHTaxPercent>
+      <Method code="0" fulfillmentCode="FR12345678" fulfillmentIndicator="" carrierServiceCode="5" carrierName="">SC UPS Next ? Day Air</Method>
+      <ShipperName shipperID="4">Solid Cactus Shipper</ShipperName>
+      <ShippingAmount>8.75</ShippingAmount>
+      <ShippingDocumentVersion>A</ShippingDocumentVersion>
+      <Shipment shipmentID="" transmissionID="">
+        <File fileSubCode="0" fileNumber="0" fileName=""/>
+        <ShipmentNumber>24596-</ShipmentNumber>
+        <TotalLines>2</TotalLines>
+        <TotalUnits>2</TotalUnits>
+        <TotalWeight>30.00</TotalWeight>
+        <TotalShippingWeight>1.02</TotalShippingWeight>
+        <Cart controlNumber="" pickSequenceNumber=""/>
+        <ShipDate/>
+        <TrackingNumber/>
+      </Shipment>
+      <GiftWrapping textValue="True">1</GiftWrapping>
+      <GiftMessage>Happy Birthday Mauro!!</GiftMessage>
+      <GiftSender/>
+      <GiftRecipient/>
+      <SpecialInstructions>Please wrap this carefully</SpecialInstructions>
+      <Address type="ShipTo" isScheduled="False">
+        <FullName>MAURICE EVANS-ASDF'FDF</FullName>
+        <Company/>
+        <Title code="0" alphaCode=" "/>
+        <FullAddress>MAURICE EVANS-ASDF'FDF
+          65 W 83RD ST
+          APT 4A
+          NEW YORK, NY 10024
+          USA
+        </FullAddress>
+        <Firstname>MAURICE</Firstname>
+        <MidInitial/>
+        <Lastname>EVANS-ASDF'FDF</Lastname>
+        <Street1>65 W 83RD ST</Street1>
+        <Street2/>
+        <Address1>65 W 83RD ST</Address1>
+        <Address2>APT 4A</Address2>
+        <SubCity/>
+        <Apartment>APT 4A</Apartment>
+        <Building/>
+        <County/>
+        <City>NEW YORK</City>
+        <ZIP>10024</ZIP>
+        <TLD>US</TLD>
+        <State>NY</State>
+        <Email/>
+        <FullPhone/>
+        <UseShipTo>1</UseShipTo>
+        <Country>USA</Country>
+      </Address>
+    </ShippingInformation>
+    <Customer number="11552">
+      <Level/>
+      <DateOfBirth/>
+      <TimeOfBirth/>
+      <PlaceOfBirth/>
+      <PlaceOfBirthTLD/>
+      <PlaceOfBirthState/>
+      <PlaceOfBirthCode/>
+      <NS/>
+      <EW/>
+      <LatitudeReal/>
+      <LongitudeReal/>
+      <Longitude/>
+      <Latitude/>
+      <PlaceOfBirthCodeAF/>
+      <LongitudeAF/>
+      <LatitudeAF/>
+      <ZodiacSign>0</ZodiacSign>
+      <Address type="BillTo">
+        <PhoneNumber>+34 () 555555555</PhoneNumber>
+        <FullName>BILL THOMAS</FullName>
+        <Company/>
+        <Title code="0" alphaCode=" "/>
+        <FullAddress>BILL THOMAS
+          251 W 30TH ST
+          APT 12E
+          NEW YORK, NY 10001
+          USA
+        </FullAddress>
+        <Firstname>BILL</Firstname>
+        <MidInitial/>
+        <Lastname>THOMAS</Lastname>
+        <Street1>251 W 30TH ST</Street1>
+        <Street2/>
+        <Address1>251 W 30TH ST</Address1>
+        <Address2>APT 12E</Address2>
+        <SubCity/>
+        <Apartment>APT 12E</Apartment>
+        <Building/>
+        <County/>
+        <City>NEW YORK</City>
+        <ZIP>10001</ZIP>
+        <TLD>US</TLD>
+        <State>NY</State>
+        <Email>a|aad@c.com</Email>
+      </Address>
+      <FlagData>
+        <Flag/>
+        <Flag name="DoNotMailFlag">True</Flag>
+        <Flag name="NixieFlag">False</Flag>
+        <Flag name="BadDebtFlag">False</Flag>
+        <Flag name="DoNotRentFlag">False</Flag>
+        <Flag name="DoNotEmailFlag">True</Flag>
+        <Flag name="DoNotCallFlag">True</Flag>
+      </FlagData>
+    </Customer>
+    <OrderDetail>
+      <LineItem lineNumber="1" output="" parentLineNumber="0" orderLineAdditionType="" originalLineNumber="">
+        <ShipmentNumber shipmentID="0" thisShipment="False">24596-0</ShipmentNumber>
+        <DefaultUnitPrice>55</DefaultUnitPrice>
+        <LineCOGS>10</LineCOGS>
+        <ItemCode parentLineItemCode="">APPLE</ItemCode>
+        <FulfillmentReference>APPLE</FulfillmentReference>
+        <ProductName>Deluxe Princess Fiona�,� Child</ProductName>
+        <Info/>
+        <PickLocation zone="" aisle="" shelf="" bin="05A7" location="05A7">05A7</PickLocation>
+        <FulfillmentInstructions/>
+        <Quantity bonus="0">1</Quantity>
+        <ShippingQuantity bonus="0">0</ShippingQuantity>
+        <Price priceType="U">49.50</Price>
+        <Tax taxPercent="8.3750">4.14562</Tax>
+        <Recurrence RecurrencePatternID="28" RecurrenceCount="1" ConfigurationID="5">
+          <RecurrenceDiscountAmount>0</RecurrenceDiscountAmount>
+          <RecurrenceDiscountPercent>10</RecurrenceDiscountPercent>
+        </Recurrence>
+        <TotalPrice>49.50</TotalPrice>
+        <FileSubCode>0</FileSubCode>
+        <FileNumber>0</FileNumber>
+        <LineStatus date="5/31/2010 5:06:00 AM" text="OK">4</LineStatus>
+        <LineDiscount>0.00</LineDiscount>
+      </LineItem>
+      <LineItem lineNumber="2" output="" parentLineNumber="0" orderLineAdditionType="" originalLineNumber="">
+        <ShipmentNumber shipmentID="0" thisShipment="False">24596-0</ShipmentNumber>
+        <DefaultUnitPrice>25</DefaultUnitPrice>
+        <LineCOGS>11</LineCOGS>
+        <ItemCode parentLineItemCode="">WATCH</ItemCode>
+        <FulfillmentReference>WATCH</FulfillmentReference>
+        <ProductName>111</ProductName>
+        <Info/>
+        <PickLocation zone="" aisle="" shelf="" bin="" location="">-</PickLocation>
+        <FulfillmentInstructions>True</FulfillmentInstructions>
+        <Quantity bonus="0">1</Quantity>
+        <ShippingQuantity bonus="0">0</ShippingQuantity>
+        <Price priceType="U">25.00</Price>
+        <Tax taxPercent="0.0000">0.00000</Tax>
+        <TotalPrice>25.00</TotalPrice>
+        <FileSubCode>0</FileSubCode>
+        <FileNumber>0</FileNumber>
+        <LineStatus date="5/31/2010 5:06:00 AM" text="OK">4</LineStatus>
+        <LineDiscount>0.00</LineDiscount>
+        <ItemCustomizationData>
+          <CustomizationField fieldID="127" fieldName="CrossSell?" outputFulfillmentFile="False">
+            <Value>demoText</Value>
+            <Surcharge>0.00</Surcharge>
+          </CustomizationField>
+        </ItemCustomizationData>
+      </LineItem>
+    </OrderDetail>
+  </Order>
+  <Order orderNumber="24595">
+    <PaymentSummary>
+      <LastCreditCardStatus status="0">pending</LastCreditCardStatus>
+    </PaymentSummary>
+    <OrderHeader>
+      <OrderID/>
+      <Tax>4.88</Tax>
+      <NetAmount>74.50</NetAmount>
+      <PrimaryPaymentType type="1">Credit Card</PrimaryPaymentType>
+      <OriginType textValue="Internet">3</OriginType>
+      <KeycodeDescription>JTest Keycode</KeycodeDescription>
+      <OrderNumber>24595</OrderNumber>
+      <Keycode>JTESTKEY</Keycode>
+      <KeyedDate>2010-05-31 05:00:00</KeyedDate>
+      <StoreCode/>
+      <OrderStatus statusCode="4">review</OrderStatus>
+      <Balance>76.13</Balance>
+      <TotalPaid>12.00</TotalPaid>
+      <TotalAmount>88.13</TotalAmount>
+      <TotalWrittenOff>0.00</TotalWrittenOff>
+      <CollectionsCycle/>
+      <FirstCollectionsDate/>
+      <SalesPricesIncludeTax>False</SalesPricesIncludeTax>
+      <PaymentPlan paymentPlanID="0"/>
+      <OrderDate>2003-04-01 22:15:00</OrderDate>
+      <StandingOrderNote>Next Occurrence Date = '06/02/2010'
+        Occurrence Number = '1'
+        OccurrenceLimit = ''
+        Configuration Name = 'weekly Fixed Catchup'
+      </StandingOrderNote>
+      <TotalDiscount>5.50</TotalDiscount>
+      <CustomFields/>
+      <OrderFlags>VWM</OrderFlags>
+      <OrderStatusDate>2010-05-31 05:01:00</OrderStatusDate>
+    </OrderHeader>
+    <ShippingInformation>
+      <SHTax>0.73</SHTax>
+      <SHTaxPercent>8.38</SHTaxPercent>
+      <Method code="0" fulfillmentCode="FR12345678" fulfillmentIndicator="" carrierServiceCode="5" carrierName="">SC UPS Next ? Day Air</Method>
+      <ShipperName shipperID="4">Solid Cactus Shipper</ShipperName>
+      <ShippingAmount>8.75</ShippingAmount>
+      <ShippingDocumentVersion>A</ShippingDocumentVersion>
+      <Shipment shipmentID="" transmissionID="">
+        <File fileSubCode="0" fileNumber="0" fileName=""/>
+        <ShipmentNumber>24595-</ShipmentNumber>
+        <TotalLines>2</TotalLines>
+        <TotalUnits>2</TotalUnits>
+        <TotalWeight>30.00</TotalWeight>
+        <TotalShippingWeight>1.02</TotalShippingWeight>
+        <Cart controlNumber="" pickSequenceNumber=""/>
+        <ShipDate/>
+        <TrackingNumber/>
+      </Shipment>
+      <GiftWrapping textValue="True">1</GiftWrapping>
+      <GiftMessage>Happy Birthday Mauro!!</GiftMessage>
+      <GiftSender/>
+      <GiftRecipient/>
+      <SpecialInstructions>Please wrap this carefully</SpecialInstructions>
+      <Address type="ShipTo" isScheduled="False">
+        <FullName>MAURICE EVANS-ASDF'FDF</FullName>
+        <Company/>
+        <Title code="0" alphaCode=" "/>
+        <FullAddress>MAURICE EVANS-ASDF'FDF
+          65 W 83RD ST
+          APT 4A
+          NEW YORK, NY 10024
+          USA
+        </FullAddress>
+        <Firstname>MAURICE</Firstname>
+        <MidInitial/>
+        <Lastname>EVANS-ASDF'FDF</Lastname>
+        <Street1>65 W 83RD ST</Street1>
+        <Street2/>
+        <Address1>65 W 83RD ST</Address1>
+        <Address2>APT 4A</Address2>
+        <SubCity/>
+        <Apartment>APT 4A</Apartment>
+        <Building/>
+        <County/>
+        <City>NEW YORK</City>
+        <ZIP>10024</ZIP>
+        <TLD>US</TLD>
+        <State>NY</State>
+        <Email/>
+        <FullPhone/>
+        <UseShipTo>1</UseShipTo>
+        <Country>USA</Country>
+      </Address>
+    </ShippingInformation>
+    <Customer number="11552">
+      <Level/>
+      <DateOfBirth/>
+      <TimeOfBirth/>
+      <PlaceOfBirth/>
+      <PlaceOfBirthTLD/>
+      <PlaceOfBirthState/>
+      <PlaceOfBirthCode/>
+      <NS/>
+      <EW/>
+      <LatitudeReal/>
+      <LongitudeReal/>
+      <Longitude/>
+      <Latitude/>
+      <PlaceOfBirthCodeAF/>
+      <LongitudeAF/>
+      <LatitudeAF/>
+      <ZodiacSign>0</ZodiacSign>
+      <Address type="BillTo">
+        <PhoneNumber>+34 () 555555555</PhoneNumber>
+        <FullName>BILL THOMAS</FullName>
+        <Company/>
+        <Title code="0" alphaCode=" "/>
+        <FullAddress>BILL THOMAS
+          251 W 30TH ST
+          APT 12E
+          NEW YORK, NY 10001
+          USA
+        </FullAddress>
+        <Firstname>BILL</Firstname>
+        <MidInitial/>
+        <Lastname>THOMAS</Lastname>
+        <Street1>251 W 30TH ST</Street1>
+        <Street2/>
+        <Address1>251 W 30TH ST</Address1>
+        <Address2>APT 12E</Address2>
+        <SubCity/>
+        <Apartment>APT 12E</Apartment>
+        <Building/>
+        <County/>
+        <City>NEW YORK</City>
+        <ZIP>10001</ZIP>
+        <TLD>US</TLD>
+        <State>NY</State>
+        <Email>a|aad@c.com</Email>
+      </Address>
+      <FlagData>
+        <Flag/>
+        <Flag name="DoNotMailFlag">True</Flag>
+        <Flag name="NixieFlag">False</Flag>
+        <Flag name="BadDebtFlag">False</Flag>
+        <Flag name="DoNotRentFlag">False</Flag>
+        <Flag name="DoNotEmailFlag">True</Flag>
+        <Flag name="DoNotCallFlag">True</Flag>
+      </FlagData>
+    </Customer>
+    <OrderDetail>
+      <LineItem lineNumber="1" output="" parentLineNumber="0" orderLineAdditionType="" originalLineNumber="">
+        <ShipmentNumber shipmentID="0" thisShipment="False">24595-0</ShipmentNumber>
+        <DefaultUnitPrice>55</DefaultUnitPrice>
+        <LineCOGS>10</LineCOGS>
+        <ItemCode parentLineItemCode="">APPLE</ItemCode>
+        <FulfillmentReference>APPLE</FulfillmentReference>
+        <ProductName>Deluxe Princess Fiona�,� Child</ProductName>
+        <Info/>
+        <PickLocation zone="" aisle="" shelf="" bin="05A7" location="05A7">05A7</PickLocation>
+        <FulfillmentInstructions/>
+        <Quantity bonus="0">1</Quantity>
+        <ShippingQuantity bonus="0">0</ShippingQuantity>
+        <Price priceType="U">49.50</Price>
+        <Tax taxPercent="8.3750">4.14562</Tax>
+        <Recurrence RecurrencePatternID="28" RecurrenceCount="1" ConfigurationID="5">
+          <RecurrenceDiscountAmount>0</RecurrenceDiscountAmount>
+          <RecurrenceDiscountPercent>10</RecurrenceDiscountPercent>
+        </Recurrence>
+        <TotalPrice>49.50</TotalPrice>
+        <FileSubCode>0</FileSubCode>
+        <FileNumber>0</FileNumber>
+        <LineStatus date="5/31/2010 5:01:00 AM" text="OK">4</LineStatus>
+        <LineDiscount>0.00</LineDiscount>
+      </LineItem>
+      <LineItem lineNumber="2" output="" parentLineNumber="0" orderLineAdditionType="" originalLineNumber="">
+        <ShipmentNumber shipmentID="0" thisShipment="False">24595-0</ShipmentNumber>
+        <DefaultUnitPrice>25</DefaultUnitPrice>
+        <LineCOGS>11</LineCOGS>
+        <ItemCode parentLineItemCode="">WATCH</ItemCode>
+        <FulfillmentReference>WATCH</FulfillmentReference>
+        <ProductName>111</ProductName>
+        <Info/>
+        <PickLocation zone="" aisle="" shelf="" bin="" location="">-</PickLocation>
+        <FulfillmentInstructions>True</FulfillmentInstructions>
+        <Quantity bonus="0">1</Quantity>
+        <ShippingQuantity bonus="0">0</ShippingQuantity>
+        <Price priceType="U">25.00</Price>
+        <Tax taxPercent="0.0000">0.00000</Tax>
+        <TotalPrice>25.00</TotalPrice>
+        <FileSubCode>0</FileSubCode>
+        <FileNumber>0</FileNumber>
+        <LineStatus date="5/31/2010 5:01:00 AM" text="OK">4</LineStatus>
+        <LineDiscount>0.00</LineDiscount>
+        <ItemCustomizationData>
+          <CustomizationField fieldID="127" fieldName="CrossSell?" outputFulfillmentFile="False">
+            <Value>demoText</Value>
+            <Surcharge>0.00</Surcharge>
+          </CustomizationField>
+        </ItemCustomizationData>
+      </LineItem>
+    </OrderDetail>
+  </Order>
+  <Order orderNumber="24594">
+    <PaymentSummary>
+      <LastCreditCardStatus status="0">pending</LastCreditCardStatus>
+    </PaymentSummary>
+    <OrderHeader>
+      <OrderID/>
+      <Tax>4.88</Tax>
+      <NetAmount>74.50</NetAmount>
+      <PrimaryPaymentType type="1">Credit Card</PrimaryPaymentType>
+      <OriginType textValue="Internet">3</OriginType>
+      <KeycodeDescription>JTest Keycode</KeycodeDescription>
+      <OrderNumber>24594</OrderNumber>
+      <Keycode>JTESTKEY</Keycode>
+      <KeyedDate>2010-05-31 04:59:00</KeyedDate>
+      <StoreCode/>
+      <OrderStatus statusCode="4">review</OrderStatus>
+      <Balance>76.13</Balance>
+      <TotalPaid>12.00</TotalPaid>
+      <TotalAmount>88.13</TotalAmount>
+      <TotalWrittenOff>0.00</TotalWrittenOff>
+      <CollectionsCycle/>
+      <FirstCollectionsDate/>
+      <SalesPricesIncludeTax>False</SalesPricesIncludeTax>
+      <PaymentPlan paymentPlanID="0"/>
+      <OrderDate>2003-04-01 22:15:00</OrderDate>
+      <StandingOrderNote>Next Occurrence Date = '06/02/2010'
+        Occurrence Number = '1'
+        OccurrenceLimit = ''
+        Configuration Name = 'weekly Fixed Catchup'
+      </StandingOrderNote>
+      <TotalDiscount>5.50</TotalDiscount>
+      <CustomFields/>
+      <OrderFlags>VWM</OrderFlags>
+      <OrderStatusDate>2010-05-31 05:00:00</OrderStatusDate>
+    </OrderHeader>
+    <ShippingInformation>
+      <SHTax>0.73</SHTax>
+      <SHTaxPercent>8.38</SHTaxPercent>
+      <Method code="0" fulfillmentCode="FR12345678" fulfillmentIndicator="" carrierServiceCode="5" carrierName="">SC UPS Next ? Day Air</Method>
+      <ShipperName shipperID="4">Solid Cactus Shipper</ShipperName>
+      <ShippingAmount>8.75</ShippingAmount>
+      <ShippingDocumentVersion>A</ShippingDocumentVersion>
+      <Shipment shipmentID="" transmissionID="">
+        <File fileSubCode="0" fileNumber="0" fileName=""/>
+        <ShipmentNumber>24594-</ShipmentNumber>
+        <TotalLines>2</TotalLines>
+        <TotalUnits>2</TotalUnits>
+        <TotalWeight>30.00</TotalWeight>
+        <TotalShippingWeight>1.02</TotalShippingWeight>
+        <Cart controlNumber="" pickSequenceNumber=""/>
+        <ShipDate/>
+        <TrackingNumber/>
+      </Shipment>
+      <GiftWrapping textValue="True">1</GiftWrapping>
+      <GiftMessage>Happy Birthday Mauro!!</GiftMessage>
+      <GiftSender/>
+      <GiftRecipient/>
+      <SpecialInstructions>Please wrap this carefully</SpecialInstructions>
+      <Address type="ShipTo" isScheduled="False">
+        <FullName>MAURICE EVANS-ASDF'FDF</FullName>
+        <Company/>
+        <Title code="0" alphaCode=" "/>
+        <FullAddress>MAURICE EVANS-ASDF'FDF
+          65 W 83RD ST
+          APT 4A
+          NEW YORK, NY 10024
+          USA
+        </FullAddress>
+        <Firstname>MAURICE</Firstname>
+        <MidInitial/>
+        <Lastname>EVANS-ASDF'FDF</Lastname>
+        <Street1>65 W 83RD ST</Street1>
+        <Street2/>
+        <Address1>65 W 83RD ST</Address1>
+        <Address2>APT 4A</Address2>
+        <SubCity/>
+        <Apartment>APT 4A</Apartment>
+        <Building/>
+        <County/>
+        <City>NEW YORK</City>
+        <ZIP>10024</ZIP>
+        <TLD>US</TLD>
+        <State>NY</State>
+        <Email/>
+        <FullPhone/>
+        <UseShipTo>1</UseShipTo>
+        <Country>USA</Country>
+      </Address>
+    </ShippingInformation>
+    <Customer number="11552">
+      <Level/>
+      <DateOfBirth/>
+      <TimeOfBirth/>
+      <PlaceOfBirth/>
+      <PlaceOfBirthTLD/>
+      <PlaceOfBirthState/>
+      <PlaceOfBirthCode/>
+      <NS/>
+      <EW/>
+      <LatitudeReal/>
+      <LongitudeReal/>
+      <Longitude/>
+      <Latitude/>
+      <PlaceOfBirthCodeAF/>
+      <LongitudeAF/>
+      <LatitudeAF/>
+      <ZodiacSign>0</ZodiacSign>
+      <Address type="BillTo">
+        <PhoneNumber>+34 () 555555555</PhoneNumber>
+        <FullName>BILL THOMAS</FullName>
+        <Company/>
+        <Title code="0" alphaCode=" "/>
+        <FullAddress>BILL THOMAS
+          251 W 30TH ST
+          APT 12E
+          NEW YORK, NY 10001
+          USA
+        </FullAddress>
+        <Firstname>BILL</Firstname>
+        <MidInitial/>
+        <Lastname>THOMAS</Lastname>
+        <Street1>251 W 30TH ST</Street1>
+        <Street2/>
+        <Address1>251 W 30TH ST</Address1>
+        <Address2>APT 12E</Address2>
+        <SubCity/>
+        <Apartment>APT 12E</Apartment>
+        <Building/>
+        <County/>
+        <City>NEW YORK</City>
+        <ZIP>10001</ZIP>
+        <TLD>US</TLD>
+        <State>NY</State>
+        <Email>a|aad@c.com</Email>
+      </Address>
+      <FlagData>
+        <Flag/>
+        <Flag name="DoNotMailFlag">True</Flag>
+        <Flag name="NixieFlag">False</Flag>
+        <Flag name="BadDebtFlag">False</Flag>
+        <Flag name="DoNotRentFlag">False</Flag>
+        <Flag name="DoNotEmailFlag">True</Flag>
+        <Flag name="DoNotCallFlag">True</Flag>
+      </FlagData>
+    </Customer>
+    <OrderDetail>
+      <LineItem lineNumber="1" output="" parentLineNumber="0" orderLineAdditionType="" originalLineNumber="">
+        <ShipmentNumber shipmentID="0" thisShipment="False">24594-0</ShipmentNumber>
+        <DefaultUnitPrice>55</DefaultUnitPrice>
+        <LineCOGS>10</LineCOGS>
+        <ItemCode parentLineItemCode="">APPLE</ItemCode>
+        <FulfillmentReference>APPLE</FulfillmentReference>
+        <ProductName>Deluxe Princess Fiona�,� Child</ProductName>
+        <Info/>
+        <PickLocation zone="" aisle="" shelf="" bin="05A7" location="05A7">05A7</PickLocation>
+        <FulfillmentInstructions/>
+        <Quantity bonus="0">1</Quantity>
+        <ShippingQuantity bonus="0">0</ShippingQuantity>
+        <Price priceType="U">49.50</Price>
+        <Tax taxPercent="8.3750">4.14562</Tax>
+        <Recurrence RecurrencePatternID="28" RecurrenceCount="1" ConfigurationID="5">
+          <RecurrenceDiscountAmount>0</RecurrenceDiscountAmount>
+          <RecurrenceDiscountPercent>10</RecurrenceDiscountPercent>
+        </Recurrence>
+        <TotalPrice>49.50</TotalPrice>
+        <FileSubCode>0</FileSubCode>
+        <FileNumber>0</FileNumber>
+        <LineStatus date="5/31/2010 5:00:00 AM" text="OK">4</LineStatus>
+        <LineDiscount>0.00</LineDiscount>
+      </LineItem>
+      <LineItem lineNumber="2" output="" parentLineNumber="0" orderLineAdditionType="" originalLineNumber="">
+        <ShipmentNumber shipmentID="0" thisShipment="False">24594-0</ShipmentNumber>
+        <DefaultUnitPrice>25</DefaultUnitPrice>
+        <LineCOGS>11</LineCOGS>
+        <ItemCode parentLineItemCode="">WATCH</ItemCode>
+        <FulfillmentReference>WATCH</FulfillmentReference>
+        <ProductName>111</ProductName>
+        <Info/>
+        <PickLocation zone="" aisle="" shelf="" bin="" location="">-</PickLocation>
+        <FulfillmentInstructions>True</FulfillmentInstructions>
+        <Quantity bonus="0">1</Quantity>
+        <ShippingQuantity bonus="0">0</ShippingQuantity>
+        <Price priceType="U">25.00</Price>
+        <Tax taxPercent="0.0000">0.00000</Tax>
+        <TotalPrice>25.00</TotalPrice>
+        <FileSubCode>0</FileSubCode>
+        <FileNumber>0</FileNumber>
+        <LineStatus date="5/31/2010 5:00:00 AM" text="OK">4</LineStatus>
+        <LineDiscount>0.00</LineDiscount>
+        <ItemCustomizationData>
+          <CustomizationField fieldID="127" fieldName="CrossSell?" outputFulfillmentFile="False">
+            <Value>demoText</Value>
+            <Surcharge>0.00</Surcharge>
+          </CustomizationField>
+        </ItemCustomizationData>
+      </LineItem>
+    </OrderDetail>
+  </Order>
+</CustomerHistoryResponse>

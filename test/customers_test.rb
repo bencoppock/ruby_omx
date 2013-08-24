@@ -140,4 +140,52 @@ class CustomersTest < MiniTest::Unit::TestCase
     assert_equal '20016', response.custom_fields[1].field_id
     assert_equal ['Red', 'Blue'], response.custom_fields[1].values
   end
+  
+  def test_customer_history_request_from_xml
+     request = RubyOmx::CustomerHistoryRequest.format(xml_for('CustomerHistoryRequest(2.00)',200))
+     assert_equal '2.00', request.version
+     assert_equal true, request.udi_parameters.collect{|udi_param| [udi_param.key, udi_param.value] }.include?(["CustomerNumber", "24603"])
+     assert_equal true, request.udi_parameters.collect{|udi_param| [udi_param.key, udi_param.value] }.include?(["Level", "2"])
+     assert_equal true, request.udi_parameters.collect{|udi_param| [udi_param.key, udi_param.value] }.include?(["MaxOrders", "10"])
+     assert_equal true, request.udi_parameters.collect{|udi_param| [udi_param.key, udi_param.value] }.include?(["FromOrderNumber", "11512"])
+   end
+
+   def test_customer_history_request_to_xml
+     request_attrs = { :customer_number => '24603', :level => '2', :max_orders => '10', :from_order_number => '11512' }
+     request = @connection.build_customer_history_request(request_attrs)
+     request2 = RubyOmx::CustomerHistoryRequest.format(xml_for('CustomerHistoryRequest(2.00)',200))
+     assert_equal request.to_xml.to_s, request2.to_xml.to_s
+   end
+
+   def test_send_customer_history_request
+     @connection.stubs(:post).returns(xml_for('CustomerHistoryResponse(2.00)',200))
+     response = @connection.purchase_history({ :customer_number => '24603', :level => '2', :max_orders => '10', :from_order_number => '11512' })
+
+     assert_kind_of CustomerHistoryResponse, response
+     assert_equal '1', response.success
+     assert_equal '11552', response.customer_number
+     assert_equal 10, response.orders.count
+
+     # Orders
+     order = response.orders.first
+     assert_equal '24603', order.order_number
+     assert_equal 2, order.line_items.count
+     
+     # Line Items
+     line_item = order.line_items.first
+     assert_equal '1', line_item.line_number
+     assert_equal 'APPLE', line_item.item_code
+     assert_equal 'Deluxe Princess Fiona', line_item.product_name
+     assert_equal 1, line_item.quantity
+     assert_equal '49.50', line_item.price
+     assert_equal '0.00', line_item.line_discount
+     assert_equal '49.50', line_item.total_price
+     assert_equal '4.14562', line_item.tax
+     assert_equal 8.3750, line_item.tax_percent
+     assert_equal '4', line_item.line_status.value
+     assert_equal '5/31/2010 5:36:00 AM', line_item.line_status.date
+     assert_equal 'OK', line_item.line_status.text
+     assert_equal '24603-0', line_item.shipment_number
+     assert_equal 10, line_item.line_cogs
+   end
 end
